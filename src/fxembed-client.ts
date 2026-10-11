@@ -57,7 +57,7 @@ export class FxEmbedClient implements PostSource {
       response = await this.fetcher(new URL(url), {
         signal: AbortSignal.timeout(20_000),
         redirect: "error",
-        headers: { Accept: "application/json", "User-Agent": "codex-reset-signal/1.1" },
+        headers: { Accept: "application/json", "User-Agent": "gpt-usage-reset-signal/1.0" },
       });
     } catch {
       throw new Error("FxEmbed request failed");

@@ -24,7 +24,7 @@ jobs:
       MATCH_WORD: ${{ vars.MATCH_WORD || 'reset' }}
       X_EXCLUDE_REPLIES: ${{ vars.X_EXCLUDE_REPLIES || 'false' }}
       BOOTSTRAP_NOTIFY: "false"
-      TARGET_TIMEZONE: ${{ vars.TARGET_TIMEZONE || 'Asia/Shanghai' }}
+      TARGET_TIMEZONE: ${{ vars.TARGET_TIMEZONE || 'Asia/Taipei' }}
       SOURCE_TIMEZONE: ${{ vars.SOURCE_TIMEZONE }}
       INCLUDE_MENTIONS: ${{ vars.INCLUDE_MENTIONS || 'true' }}
       WEBHOOK_DEBUG: ${{ vars.WEBHOOK_DEBUG || 'false' }}

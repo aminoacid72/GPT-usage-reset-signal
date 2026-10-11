@@ -65,7 +65,7 @@ export function parseEventTime(
 ): EventTime {
   const ref = createdAt ? DateTime.fromISO(createdAt, { setZone: true }) : null;
   if (!ref?.isValid || !/(?:Z|[+-]\d{2}:?\d{2})$/i.test(createdAt!))
-    return unknown(text, "缺少有效的发帖时间");
+    return unknown(text, "缺少有效的發文時間");
   if (
     /\bor\b/i.test(text) ||
     [
@@ -74,7 +74,7 @@ export function parseEventTime(
       ),
     ].length > 1
   )
-    return unknown(text, "包含多个候选时间或备选时间，需要核对原文");
+    return unknown(text, "包含多個候選時間或備選時間，需要核對原文");
   const relative =
     text.match(
       /\b(within(?:\s+the\s+next)?|in(?:\s+the\s+next)?|over\s+the\s+next)\s+(\d+(?:\.\d+)?|an?|one|two|three|four|five|six|half)\s+(minutes?|hours?|days?)\b/i,
@@ -85,7 +85,7 @@ export function parseEventTime(
       .plus({ [relative[3].toLowerCase().replace(/s$/, "") + "s"]: n })
       .toUTC()
       .toISO();
-    if (!end) return unknown(relative[0], "相对时间超出可表示范围");
+    if (!end) return unknown(relative[0], "相對時間超出可表示範圍");
     const window =
       /within|next|over/i.test(relative[1]) || /the next/i.test(relative[0]);
     return {
@@ -102,18 +102,18 @@ export function parseEventTime(
     if (!sourceZone)
       return unknown(
         midnightDeadline[0],
-        "原文未说明时区；可配置 SOURCE_TIMEZONE 并在通知中标记假设",
+        "原文未說明時區；可設定 SOURCE_TIMEZONE，並在通知中標示假設",
       );
     const localRef = ref.setZone(sourceZone);
     const deadline = localRef.startOf("day").plus({ days: 1 });
     if (!deadline.isValid)
-      return unknown(midnightDeadline[0], "midnight 截止时间无法解析");
+      return unknown(midnightDeadline[0], "midnight 截止時間無法解析");
     return {
       kind: "exact",
       start: deadline.toUTC().toISO(),
       end: null,
       evidence: midnightDeadline[0],
-      note: `“by midnight” 按 ${sourceZone} 当日本地日终解释；这是截止时刻，不代表实际到账一定发生在该时刻`,
+      note: `「by midnight」依 ${sourceZone} 當日本地日終解讀；這是截止時間，不代表實際重置一定發生在該時刻`,
     };
   }
   const base = sourceZone ? ref.setZone(sourceZone) : ref.toUTC();
@@ -123,25 +123,25 @@ export function parseEventTime(
     { instant: ref.toJSDate(), timezone: base.offset },
     { forwardDate: /\b(?:will|expires|scheduled|lands?|landing|tomorrow|next)\b/i.test(text) },
   );
-  if (!parsed.length) return unknown(text, "原文没有可确定的时间");
+  if (!parsed.length) return unknown(text, "原文沒有可確定的時間");
   if (parsed.length > 1)
-    return unknown(text, "同一事件包含多个时间，需要核对原文");
+    return unknown(text, "同一事件包含多個時間，需要核對原文");
   const result = parsed[0];
   // chrono can read product/technical tokens such as "3D" as a calendar date when
   // a source timezone is configured. A compact number+letter token is not safe
   // timing evidence; rejecting it also lets a dedicated follow-up clause such as
   // "Lands around 6pm PST today" become the authoritative event time.
   if (/^\d+[A-Za-z]$/.test(result.text))
-    return unknown(result.text, "紧凑字母数字 token 不作为事件时间解析");
+    return unknown(result.text, "緊湊英數 token 不作為事件時間解析");
   const c = result.start;
   const explicitOffset = c.isCertain("timezoneOffset");
   if (!pacific && !explicitOffset && !sourceZone)
     return unknown(
       result.text,
-      "原文未说明时区；可配置 SOURCE_TIMEZONE 并在通知中标记假设",
+      "原文未說明時區；可設定 SOURCE_TIMEZONE，並在通知中標示假設",
     );
   if (/\b(?:CST|IST|BST)\b/i.test(result.text))
-    return unknown(result.text, "时区缩写有歧义，请核对原文");
+    return unknown(result.text, "時區縮寫有歧義，請核對原文");
   const zone = pacific
     ? "America/Los_Angeles"
     : explicitOffset
@@ -169,10 +169,10 @@ export function parseEventTime(
   const start = convert(c);
   const end = result.end ? convert(result.end) : null;
   if (!start || (result.end && !end))
-    return unknown(result.text, "时间无效或处于夏令时跳变／重复区间");
+    return unknown(result.text, "時間無效或處於日光節約時間跳變／重複區間");
   const assumed =
     !explicitOffset && !pacific
-      ? `按配置假设原文时区为 ${sourceZone}`
+      ? `依設定假設原文時區為 ${sourceZone}`
       : undefined;
   if (!c.isCertain("hour"))
     return {
@@ -182,7 +182,7 @@ export function parseEventTime(
       evidence: result.text,
       note: assumed,
     };
-  if (end && end < start) return unknown(result.text, "时间范围顺序无效");
+  if (end && end < start) return unknown(result.text, "時間範圍順序無效");
   return {
     kind: end ? "window" : "exact",
     start: start.toUTC().toISO(),
@@ -235,13 +235,13 @@ export function extractEvents(
 
     const assertion = classifyResetAssertion(clause);
     if (assertion === "uncertain") {
-      pushMention(events, clause, "讨论、请求、弱判断或否定，不代表已确认的重置");
+      pushMention(events, clause, "討論、請求、弱判斷或否定，不代表已確認的重置");
       continue;
     }
     // For ordinary reset events, assertion state decides whether an event exists.
     // Bank events retain their existing grant/expiry semantics in this refactor.
     if (!bank && assertion === "mention") {
-      pushMention(events, clause, "未形成明确的重置承诺或完成确认");
+      pushMention(events, clause, "未形成明確的重置承諾或完成確認");
       continue;
     }
 
@@ -287,7 +287,7 @@ export function extractEvents(
         start: DateTime.fromISO(post.createdAt).toUTC().toISO(),
         end: null,
         evidence: clause,
-        note: "使用公告发布时间；不代表账户实际到账时刻",
+        note: "使用公告發文時間；不代表帳戶實際重置時刻",
       };
     }
 
@@ -334,7 +334,7 @@ export function extractEvents(
         evidence: validity[0],
         time: unknown(
           validity[0],
-          "有效期已说明，但起算点未明确；不推算精确到期时刻",
+          "有效期已說明，但起算點未明確；不推算精確到期時間",
         ),
       });
   }
@@ -342,15 +342,15 @@ export function extractEvents(
 }
 
 export function formatTime(time: EventTime, timezone: string): string {
-  if (!time.start) return `时间未确定（${time.note ?? time.evidence}）`;
+  if (!time.start) return `時間未確定（${time.note ?? time.evidence}）`;
   const format = (s: string) =>
     DateTime.fromISO(s).setZone(timezone).toFormat("yyyy-MM-dd HH:mm ZZ");
   const label = {
     exact: "原文事件时刻",
-    window: "原文事件时间窗口",
-    date: "日期范围（未指定具体时刻）",
-    observed: "公告发布时刻",
-    unknown: "时间未确定",
+    window: "原文事件時間範圍",
+    date: "日期範圍（未指定具體時間）",
+    observed: "公告發文時間",
+    unknown: "時間未確定",
   }[time.kind];
   return `${label}：${format(time.start)}${time.end ? ` ～ ${format(time.end)}` : ""} [${timezone}]${time.note ? `（${time.note}）` : ""}`;
 }

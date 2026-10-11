@@ -5,7 +5,7 @@ type FeedEventType = (typeof ALLOWED_TYPES)[number];
 
 const eventLabels: Record<FeedEventType, string> = {
   reset: "Reset",
-  bank_credit: "Bank credit",
+  bank_credit: "重置券",
 };
 
 function xml(value: string): string {
@@ -33,17 +33,17 @@ function describeSignal(
 
   const timing = event.time.start
     ? event.time.end
-      ? `Time: ${event.time.start} → ${event.time.end}`
+      ? `時間： ${event.time.start} → ${event.time.end}`
       : `Time: ${event.time.start}`
     : event.time.evidence
-      ? `Timing: ${event.time.evidence}`
+      ? `時間依據： ${event.time.evidence}`
       : null;
 
   return [
     `${eventLabels[type]} · ${event.status}`,
     timing,
-    event.time.note ? `Note: ${event.time.note}` : null,
-    event.evidence ? `Evidence: ${event.evidence}` : null,
+    event.time.note ? `備註： ${event.time.note}` : null,
+    event.evidence ? `判讀依據： ${event.evidence}` : null,
     "",
     signal.text,
   ]
@@ -88,11 +88,11 @@ export function renderRssFeed(status: PublicStatus): string {
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<rss version="2.0">',
     "  <channel>",
-    `    <title>${xml(`Codex Reset Signal · @${status.username}`)}</title>`,
+    `    <title>${xml(`GPT Usage Reset Signal · @${status.username}`)}</title>`,
     `    <link>${xml(`https://x.com/${status.username}`)}</link>`,
-    "    <description>Actionable reset and bank-credit signals detected by codex-reset-signal.</description>",
+    "    <description>Actionable reset and bank-credit signals detected by gpt-usage-reset-signal.</description>",
     built ? `    <lastBuildDate>${built}</lastBuildDate>` : null,
-    "    <generator>codex-reset-signal</generator>",
+    "    <generator>gpt-usage-reset-signal</generator>",
     ...items,
     "  </channel>",
     "</rss>",

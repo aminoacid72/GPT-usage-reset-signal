@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-11T14:57:24.843Z",
+  "username": "thsottiaux",
+  "keyword": "reset",
+  "monitor": {
+    "provider": "fxembed",
+    "lastCheckedAt": "2026-10-11T14:57:24.653Z",
+    "lastSuccessAt": "2026-10-11T14:57:24.653Z",
+    "lastRunStatus": "checked-0-posts"
+  },
+  "latestObservedPost": {
+    "id": "2109152716954222849",
+    "text": "Pro users, would you rather have",
+    "url": "https://x.com/thsottiaux/status/2109152716954222849",
+    "postCreatedAt": "2026-10-11T05:22:48.000Z"
+  },
+  "latest": {
+    "reset": {
+      "version": "275b46f975c69285658a1df2115587cb1c7f9d972ad251252b4809955f2079b0",
+      "id": "2109132167112782291",
+      "text": "Put the reset in the bag. All propagated.",
+      "url": "https://x.com/thsottiaux/status/2109132167112782291",
+      "postCreatedAt": "2026-10-11T04:01:09.000Z",
+      "detectedAt": "2026-10-11T04:02:34.425Z",
+      "events": [
+        {
+          "type": "reset",
+          "status": "announced",
+          "evidence": "Put the reset in the bag",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Put the reset in the bag",
+            "note": "原文没有可确定的时间"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    "bankCredit": {
+      "version": "history:2096035437299237298",
+      "id": "2096035437299237298",
+      "text": "Because we are beyond happy to have Astra rolled out today ahead of schedule and you have been super patient with us (not really, but it’s ok!)… we will do the full banked reset today too for all Plus, Pro and Business users. Lands end of day. Happy Astra day and enjoy a phenomenal weekend. PS: If you create the account or upgrade before 8pm PT you will get it too. Still time!",
+      "url": "https://x.com/thsottiaux/status/2096035437299237298",
+      "postCreatedAt": "2026-09-05T00:39:25.364Z",
+      "detectedAt": "2026-09-09T08:30:00.000Z",
+      "events": [
+        {
+          "type": "bank_credit",
+          "status": "announced",
+          "evidence": "we will do the full banked reset today too for all Plus, Pro and Business users",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Lands end of day",
+            "note": "Banked reset was promised by end of day, but no safe exact landing time is stated. The separate 8pm PT time is an eligibility cutoff for account creation or upgrade, not the bank-credit landing time."
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "historical_seed"
+    },
+    "bankExpiry": null
+  },
+  "recent": [
+    {
+      "version": "275b46f975c69285658a1df2115587cb1c7f9d972ad251252b4809955f2079b0",
+      "id": "2109132167112782291",
+      "text": "Put the reset in the bag. All propagated.",
+      "url": "https://x.com/thsottiaux/status/2109132167112782291",
+      "postCreatedAt": "2026-10-11T04:01:09.000Z",
+      "detectedAt": "2026-10-11T04:02:34.425Z",
+      "events": [
+        {
+          "type": "reset",
+          "status": "announced",
+          "evidence": "Put the reset in the bag",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Put the reset in the bag",
+            "note": "原文没有可确定的时间"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "abca362ee0544431ccd2bfa33bf8f109ce8b25e2e2278b68f226033103c32626",
+      "id": "2109090080497508356",
+      "text": "The day we reach perfection it will be resets from there onwards",
+      "url": "https://x.com/thsottiaux/status/2109090080497508356",
+      "postCreatedAt": "2026-10-11T01:13:54.000Z",
+      "detectedAt": "2026-10-11T01:17:24.100Z",
+      "events": [
+        {
+          "type": "reset",
+          "status": "scheduled",
+          "evidence": "The day we reach perfection it will be resets from there onwards",
+          "time": {
+            "kind": "date",
+            "start": "2026-10-11T07:13:54.000Z",
+            "end": "2026-10-12T07:13:54.000Z",
+            "evidence": "The day",
+            "note": "按配置假设原文时区为 America/Los_Angeles"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "deea556e60505c6fff4fc2857a2dc967dd803fbd6102c60704a5bd92ed4e822a",
+      "id": "2109045392684032299",
+      "text": "Global reset by EOD. May the tokens do good things for you.",
+      "url": "https://x.com/thsottiaux/status/2109045392684032299",
+      "postCreatedAt": "2026-10-10T22:16:20.000Z",
+      "detectedAt": "2026-10-10T22:17:22.922Z",
+      "events": [
+        {
+          "type": "reset",
+          "status": "announced",
+          "evidence": "Global reset by EOD",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Global reset by EOD",
+            "note": "原文没有可确定的时间"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "e3dcd7beacba2d69639523394e1e5b92bbdd64ad09cef8ece8716a7cba867c6b",
+      "id": "2109045220411351517",
+      "text": "Day 6/ Reset",
+      "url": "https://x.com/thsottiaux/status/2109045220411351517",
+      "postCreatedAt": "2026-10-10T22:15:39.000Z",
+      "detectedAt": "2026-10-10T22:17:22.892Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Day 6/ Reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Day 6/ Reset",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "ecc7339da4eebb3dc39327664289521ad6dfb66f2129c71a7e50119a4ced0557",
+      "id": "2107913674593644711",
+      "text": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
+      "url": "https://x.com/thsottiaux/status/2107913674593644711",
+      "postCreatedAt": "2026-10-07T19:19:17.000Z",
+      "detectedAt": "2026-10-07T19:22:34.134Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Loading a banked reset in everyone's paid accounts",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Loading a banked reset in everyone's paid accounts",
+            "note": "原文没有可确定的时间"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "2f73d5d9fccb3a4eddab62adf9e52a79c2f89312d74d5f3da3190a909a0bb8cc",
+      "id": "2107676072871600470",
+      "text": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment.\n\nTherefore ... the reset has been processed. Enjoy!",
+      "url": "https://x.com/thsottiaux/status/2107676072871600470",
+      "postCreatedAt": "2026-10-07T03:35:09.000Z",
+      "detectedAt": "2026-10-07T03:37:24.268Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        },
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        },
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "the reset has been processed",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "the reset has been processed",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "85892387eb9ff7a95c526efcebe49b7e7ad48687dd700357c70170e063af22d3",
+      "id": "2107578625419866469",
+      "text": "Four updates or a reset. Or both. How was day 2.",
+      "url": "https://x.com/thsottiaux/status/2107578625419866469",
+      "postCreatedAt": "2026-10-06T21:07:55.000Z",
+      "detectedAt": "2026-10-06T21:12:29.355Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Four updates or a reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Four updates or a reset",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "57d0a1b4fe4b21e48d44e65af02de747a6399d988694606b367b04bca8c38397",
+      "id": "2107577536779870210",
+      "text": "@The_Alex I do like giving resets",
+      "url": "https://x.com/thsottiaux/status/2107577536779870210",
+      "postCreatedAt": "2026-10-06T21:03:36.000Z",
+      "detectedAt": "2026-10-06T21:07:33.408Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "@The_Alex I do like giving resets",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "@The_Alex I do like giving resets",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "634cee8d4bc3c33cda61db1b50c369936dd953aad5b9f2f8e910166b36a2efeb",
+      "id": "2106845241357824205",
+      "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "postCreatedAt": "2026-10-04T20:33:43.000Z",
+      "detectedAt": "2026-10-04T20:37:29.275Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "8d648cfa3f70b05d1282442dffd0dadac8cd4f88b8eb31561308956090ce3da1",
+      "id": "2106233145163141249",
+      "text": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier. Investigating and will make up for it",
+      "url": "https://x.com/thsottiaux/status/2106233145163141249",
+      "postCreatedAt": "2026-10-03T04:01:28.000Z",
+      "detectedAt": "2026-10-03T04:02:27.379Z",
+      "events": [
+        {
+          "type": "reset",
+          "status": "announced",
+          "evidence": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier",
+            "note": "原文没有可确定的时间"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "5b85ac7fbd8b721dd409dd96202e65a3b4d0b33e20fe297a4360df356c97b617",
+      "id": "2106131810921136451",
+      "text": "Reset all propagated. Enjoy.",
+      "url": "https://x.com/thsottiaux/status/2106131810921136451",
+      "postCreatedAt": "2026-10-02T21:18:48.000Z",
+      "detectedAt": "2026-10-02T21:22:29.062Z",
+      "events": [
+        {
+          "type": "reset",
+          "status": "completed",
+          "evidence": "Reset all propagated",
+          "time": {
+            "kind": "observed",
+            "start": "2026-10-02T21:18:48.000Z",
+            "end": null,
+            "evidence": "Reset all propagated",
+            "note": "使用公告发布时间；不代表账户实际到账时刻"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "b02c185e6d38a85aef44055aeecbb23e288971261e952c941d61762839440884",
+      "id": "2105843926221660585",
+      "text": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
+      "url": "https://x.com/thsottiaux/status/2105843926221660585",
+      "postCreatedAt": "2026-10-02T02:14:51.000Z",
+      "detectedAt": "2026-10-02T02:17:26.112Z",
+      "events": [
+        {
+          "type": "reset",
+          "status": "scheduled",
+          "evidence": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts",
+          "time": {
+            "kind": "exact",
+            "start": "2026-10-02T18:00:00.000Z",
+            "end": null,
+            "evidence": "tomorrow 10am PST"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "167a269c5773a9f503592fe0b0b5df1cde533a29f9c0c1145fa8cac12081882e",
+      "id": "2105672058269212820",
+      "text": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset. I need to come up with something new fast.",
+      "url": "https://x.com/thsottiaux/status/2105672058269212820",
+      "postCreatedAt": "2026-10-01T14:51:54.000Z",
+      "detectedAt": "2026-10-01T14:53:35.381Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "6318f9d8a246e13f79341d9899d5506a36c826782b7fa20a328fe7948e26e8a0",
+      "id": "2103963215885701493",
+      "text": "@giadotai Sorry Gia. More resets coming next week",
+      "url": "https://x.com/thsottiaux/status/2103963215885701493",
+      "postCreatedAt": "2026-09-26T21:41:35.000Z",
+      "detectedAt": "2026-09-26T21:43:22.460Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "More resets coming next week",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "More resets coming next week",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "d261afc190875454fd0bc3dcd8f9295084e6dd74731c61ed6c149b223620b452",
+      "id": "2103911959544610829",
+      "text": "Resets all propagated. That will be all. Have a fantastic weekend.",
+      "url": "https://x.com/thsottiaux/status/2103911959544610829",
+      "postCreatedAt": "2026-09-26T18:17:54.000Z",
+      "detectedAt": "2026-09-26T18:18:20.679Z",
+      "events": [
+        {
+          "type": "reset",
+          "status": "completed",
+          "evidence": "Resets all propagated",
+          "time": {
+            "kind": "observed",
+            "start": "2026-09-26T18:17:54.000Z",
+            "end": null,
+            "evidence": "Resets all propagated",
+            "note": "使用公告发布时间；不代表账户实际到账时刻"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "fe032afe05c5aa6956f6cdc5955ff3d20e12ab796852e5073df907c5450300fe",
+      "id": "2103637477760311522",
+      "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out)",
+      "url": "https://x.com/thsottiaux/status/2103637477760311522",
+      "postCreatedAt": "2026-09-26T00:07:13.000Z",
+      "detectedAt": "2026-09-26T00:07:32.430Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "we’ll reset usage limits for all paid users across codex and ChatGPT work",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "we’ll reset usage limits for all paid users across codex and ChatGPT work",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "3302b1fc9d9d5428a0e870204cc326c54d52f7e515e885bb408f9615ef5b23c4",
+      "id": "2102463847714247142",
+      "text": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. \n\nWe are also permanently reducing the API price by 50% making both of them viable for a ton of new usecases and making your usage go further too, even on the subscriptions.\n\nAnd one more thing. We are loading a banked reset into all accounts of our Plus, Pro and Business users. Let's go!\n\nhttps://t.co/00DRh1sRrO",
+      "url": "https://x.com/thsottiaux/status/2102463847714247142",
+      "postCreatedAt": "2026-09-22T18:23:37.000Z",
+      "detectedAt": "2026-09-22T18:27:42.680Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "We are loading a banked reset into all accounts of our Plus, Pro and Business users",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "We are loading a banked reset into all accounts of our Plus, Pro and Business users",
+            "note": "原文没有可确定的时间"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "e05dd323527a8b908b4c23cec5e46b4d980f00ee8251f16490c8b74ff1ee9235",
+      "id": "2102254445082116335",
+      "text": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
+      "url": "https://x.com/thsottiaux/status/2102254445082116335",
+      "postCreatedAt": "2026-09-22T04:31:32.000Z",
+      "detectedAt": "2026-09-22T04:32:36.635Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "We are almost Tuesday and I promised a reset for Tuesday",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "We are almost Tuesday and I promised a reset for Tuesday",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "fef1125987d70b562afe2b7e25fdd1222126c4e6cc0e32810cc750f806ddc567",
+      "id": "2098685367058612394",
+      "text": "Reset all propagated. Sweet dreams.",
+      "url": "https://x.com/thsottiaux/status/2098685367058612394",
+      "postCreatedAt": "2026-09-12T08:09:17.000Z",
+      "detectedAt": "2026-09-12T08:12:33.444Z",
+      "events": [
+        {
+          "type": "reset",
+          "status": "completed",
+          "evidence": "Reset all propagated",
+          "time": {
+            "kind": "observed",
+            "start": "2026-09-12T08:09:17.000Z",
+            "end": null,
+            "evidence": "Reset all propagated",
+            "note": "使用公告发布时间；不代表账户实际到账时刻"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "b5599265e296069a3cddf337f505d762daa0094bca841bc4d1cc39a191ccb482",
+      "id": "2098612714704891959",
+      "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
+      "url": "https://x.com/thsottiaux/status/2098612714704891959",
+      "postCreatedAt": "2026-09-12T03:20:36.000Z",
+      "detectedAt": "2026-09-12T03:22:27.737Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "A reset and a quick update on quality issues that have been posted around",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "A reset and a quick update on quality issues that have been posted around",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        },
+        {
+          "type": "reset",
+          "status": "scheduled",
+          "evidence": "And of course, a reset is also landing by midnight today",
+          "time": {
+            "kind": "exact",
+            "start": "2026-09-12T07:00:00.000Z",
+            "end": null,
+            "evidence": "by midnight today",
+            "note": "“by midnight” 按 America/Los_Angeles 当日本地日终解释；这是截止时刻，不代表实际到账一定发生在该时刻"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    }
+  ]
+}

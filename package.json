@@ -1,9 +1,9 @@
 {
-  "name": "codex-reset-signal",
+  "name": "gpt-usage-reset-signal",
   "version": "1.1.0",
   "private": true,
   "type": "module",
-  "description": "Monitor Tibo reset and bank announcements, extract event times, and notify bots in your timezone.",
+  "description": "Monitor public Tibo usage-reset signals and publish structured status for ChatGPT/Codex clients.",
   "license": "MIT",
   "scripts": {
     "dev": "vinext dev",

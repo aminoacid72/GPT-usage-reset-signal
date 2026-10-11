@@ -45,6 +45,26 @@ describe("real announcement regressions", () => {
     expect(reset.time.start).toBe("2026-09-12T08:09:17.000Z");
   });
 
+  it("links a short follow-up completion sentence to the reset clause", () => {
+    const reset = extractEvents(
+      post("Put the reset in the bag. All propagated.", "2026-10-11T04:01:09.000Z"),
+    )[0];
+    expect(reset.type).toBe("reset");
+    expect(reset.status).toBe("completed");
+    expect(reset.evidence).toMatch(/reset in the bag.*all propagated/i);
+    expect(reset.time.kind).toBe("observed");
+    expect(reset.time.start).toBe("2026-10-11T04:01:09.000Z");
+  });
+
+  it("treats an explicitly processed reset as completed", () => {
+    const reset = extractEvents(
+      post("The reset has been processed. Enjoy!", "2026-10-07T03:35:09.000Z"),
+    )[0];
+    expect(reset.type).toBe("reset");
+    expect(reset.status).toBe("completed");
+    expect(reset.time.kind).toBe("observed");
+  });
+
   it("treats the Sep 12 midnight landing announcement as a scheduled reset", () => {
     const text = [
       "Hi Astra users. A reset and a quick update on quality issues that have been posted around.",

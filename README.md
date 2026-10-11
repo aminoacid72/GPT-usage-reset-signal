@@ -1,56 +1,91 @@
 # GPT Usage Reset Signal
 
-Public monitor for ChatGPT / Codex usage-reset signals.
+以公開資料監控 ChatGPT / Codex 使用額度重置（reset）訊號，主要供本人的 AI Usage Sidebar 使用。
 
-This repository monitors public posts from Tibo (@thsottiaux) through FxEmbed, classifies reset-related announcements, and publishes a machine-readable status projection for use by browser extensions and other clients.
+本專案會透過 FxEmbed 讀取 Tibo（@thsottiaux）的公開 X 貼文，判讀是否為使用額度重置公告、預定重置、已完成重置或僅為一般提及，再產生可供瀏覽器擴充功能讀取的 `status.json`。
 
-## Architecture
+> 本專案為非官方工具，與 OpenAI、X、FxEmbed、AllenXiao95 或 UynajGI 均無隸屬或背書關係。
+
+## 運作方式
 
 ```text
-Tibo public X posts
-      ↓
-FxEmbed
-      ↓
-GitHub Actions
-      ↓
-event classification
-      ↓
+Tibo 的公開 X 貼文
+        ↓
+      FxEmbed
+        ↓
+   GitHub Actions
+   約每 5 分鐘執行
+        ↓
+   重置訊號判讀
+        ↓
 monitor-state/status.json
-      ↓
-AI Usage Sidebar / other clients
+        ↓
+AI Usage Sidebar / 其他讀取端
 ```
 
-The default source is FxEmbed, so the monitor does not require an X login, X cookies, or an X API token.
+預設資料來源為 FxEmbed，因此不需要登入 X，也不需要保存 X Cookie 或 X API Token。
 
-Runtime state is written to the `monitor-state` branch. The public consumer endpoint is:
+公開 JSON：
 
 ```text
 https://raw.githubusercontent.com/aminoacid72/GPT-usage-reset-signal/monitor-state/status.json
 ```
 
-## Attribution and license
+執行狀態與公開輸出放在獨立的 `monitor-state` branch；程式碼本體放在 `main`。
 
-This project is an independent derivative of:
+## 判讀概要
+
+主要判讀邏輯位於 `src/events.ts`。
+
+程式會把含有 reset 關鍵字的貼文拆成句子，依語意規則分成：
+
+- `completed`：明確表示已完成重置，例如 reset completed、reset propagated、reset applied。
+- `scheduled`：明確表示未來將重置，且可解析出時間、日期或時間範圍。
+- `announced`：明確表示會重置，但無法安全判定時間。
+- `uncertain` / `mention`：問句、假設、請求、否定、一般討論或其他不足以確認重置的文字。
+
+時間解析會區分：
+
+- `exact`：可確定單一時間。
+- `window`：時間範圍。
+- `date`：只能確定日期。
+- `observed`：以公告發文時間作為「已完成」的觀察時間。
+- `unknown`：無法安全解析，不自行捏造時間。
+
+詳細規則請見 [docs/classification.zh-TW.md](docs/classification.zh-TW.md)。
+
+## Repository 結構
+
+- `.github/workflows/monitor.yml`：GitHub Actions 定時監控工作。
+- `src/fxembed-client.ts`：向 FxEmbed 取得 Tibo 公開貼文。
+- `src/events.ts`：reset 語意分類與時間解析核心。
+- `src/monitor.ts`：整體監控流程、狀態更新與重新投影。
+- `src/public-status.ts`：產生公開的 `status.json`。
+- `src/feed.ts`：產生 RSS `feed.xml`。
+- `src/state.ts`：保存游標、已看過貼文與監控狀態。
+- `history/seed.json`：上游提供的歷史種子資料。
+- `tests/`：判讀、FxEmbed、監控與公開輸出的回歸測試。
+- `monitor-state` branch：執行中的 `state.json`、`status.json`、`feed.xml`。
+
+## 預設設定
+
+- 監控帳號：`@thsottiaux`
+- 資料來源：`fxembed`
+- 關鍵字：`reset`
+- 顯示時區：`Asia/Taipei`
+- GitHub Actions：大約每 5 分鐘執行一次
+
+## 授權與來源
+
+本專案是下列專案的獨立衍生版本：
 
 - [AllenXiao95/codex-reset-signal](https://github.com/AllenXiao95/codex-reset-signal)
-- which identifies [UynajGI/reset-signal](https://github.com/UynajGI/reset-signal) as an earlier upstream project
+- 該專案另註明源自 [UynajGI/reset-signal](https://github.com/UynajGI/reset-signal)
 
-The upstream MIT license and copyright notice are preserved verbatim in [LICENSE](LICENSE). This repository continues to be distributed under the MIT License.
+依原專案 MIT License 要求，本 repository 保留原始 MIT 授權與 copyright notice，完整內容見 [LICENSE](LICENSE)。
 
-This project is unofficial and is not affiliated with or endorsed by OpenAI, X, FxEmbed, AllenXiao95, or UynajGI.
-
-## Defaults
-
-- X account: `@thsottiaux`
-- source provider: `fxembed`
-- keyword: `reset`
-- display timezone: `Asia/Taipei`
-- GitHub Actions schedule: approximately every 5 minutes
-
-## Development
-
-Core monitoring and event-classification code is derived from the upstream project and will be modified for this repository's usage-reset requirements.
+本專案仍以 MIT License 發布。
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE).

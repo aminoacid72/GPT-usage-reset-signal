@@ -205,6 +205,15 @@ function nearbyTimingClause(clauses: string[], index: number): string | null {
   return null;
 }
 
+function nearbyCompletionClause(clauses: string[], index: number): string | null {
+  const candidate = clauses[index + 1];
+  if (!candidate) return null;
+  if (/\b(?:reset(?:s|ting)?|bank(?:ed)?)\b/i.test(candidate)) return null;
+  if (/^(?:all\s+)?(?:has\s+been\s+)?(?:propagated|processed|applied|landed|complete(?:d)?|done|finished)\b/i.test(candidate))
+    return candidate;
+  return null;
+}
+
 function pushMention(events: ResetEvent[], clause: string, note: string): void {
   events.push({
     type: "mention",
@@ -233,7 +242,12 @@ export function extractEvents(
       continue;
     if (/\b(?:password|factory|router|database)\b/i.test(clause)) continue;
 
-    const assertion = classifyResetAssertion(clause);
+    const completionClause = !bank ? nearbyCompletionClause(clauses, index) : null;
+    let assertion = classifyResetAssertion(clause);
+    if (assertion === "mention" && completionClause) assertion = "completed";
+    const eventEvidence = assertion === "completed" && completionClause
+      ? `${clause}. ${completionClause}`
+      : clause;
     if (assertion === "uncertain") {
       pushMention(events, clause, "讨论、请求、弱判断或否定，不代表已确认的重置");
       continue;
@@ -286,7 +300,7 @@ export function extractEvents(
         kind: "observed",
         start: DateTime.fromISO(post.createdAt).toUTC().toISO(),
         end: null,
-        evidence: clause,
+        evidence: eventEvidence,
         note: "使用公告发布时间；不代表账户实际到账时刻",
       };
     }
@@ -300,7 +314,7 @@ export function extractEvents(
             : ["exact", "window", "date"].includes(time.kind)
               ? "scheduled"
               : "announced",
-        evidence: clause,
+        evidence: eventEvidence,
         time,
       });
       continue;

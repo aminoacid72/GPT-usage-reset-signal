@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T23:05:30.266Z",
+  "updatedAt": "2026-10-12T02:19:03.467Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-11T23:05:30.262Z",
-    "lastSuccessAt": "2026-10-11T23:05:30.262Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-12T02:19:03.461Z",
+    "lastSuccessAt": "2026-10-12T02:19:03.461Z",
+    "lastRunStatus": "checked-5-posts"
   },
   "latestObservedPost": {
-    "id": "2109152716954222849",
-    "text": "Pro users, would you rather have",
-    "url": "https://x.com/thsottiaux/status/2109152716954222849",
-    "postCreatedAt": "2026-10-11T05:22:48.000Z"
+    "id": "2109439813900493102",
+    "text": "@AnkanXplorer Neither. It's all about coding by hand these days",
+    "url": "https://x.com/thsottiaux/status/2109439813900493102",
+    "postCreatedAt": "2026-10-12T00:23:37.000Z"
   },
   "latest": {
     "reset": {

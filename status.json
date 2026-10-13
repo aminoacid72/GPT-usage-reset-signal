@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T01:22:58.360Z",
+  "updatedAt": "2026-10-13T07:55:25.783Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-13T01:22:58.345Z",
-    "lastSuccessAt": "2026-10-13T01:22:58.345Z",
-    "lastRunStatus": "checked-4-posts"
+    "lastCheckedAt": "2026-10-13T07:55:25.774Z",
+    "lastSuccessAt": "2026-10-13T07:55:25.774Z",
+    "lastRunStatus": "checked-10-posts"
   },
   "latestObservedPost": {
-    "id": "2109812360596865224",
-    "text": "Global reset landing by EOD PST time. Enjoy",
-    "url": "https://x.com/thsottiaux/status/2109812360596865224",
-    "postCreatedAt": "2026-10-13T01:03:59.000Z"
+    "id": "2109892247580000595",
+    "text": "Good plans are simple. I have one that should result in significantly more usage for everyone. Hope to get it done soon.",
+    "url": "https://x.com/thsottiaux/status/2109892247580000595",
+    "postCreatedAt": "2026-10-13T06:21:26.000Z"
   },
   "latest": {
     "reset": {
@@ -67,6 +67,30 @@
     "bankExpiry": null
   },
   "recent": [
+    {
+      "version": "0c2365f179f9ebd9526f6652d6d5b41cd355a42feb13a8dbdee1544d6ad1da78",
+      "id": "2109873287853707513",
+      "text": "What would you like with your side of reset? It's done.",
+      "url": "https://x.com/thsottiaux/status/2109873287853707513",
+      "postCreatedAt": "2026-10-13T05:06:06.000Z",
+      "detectedAt": "2026-10-13T07:55:25.774Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "What would you like with your side of reset? It's done",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "What would you like with your side of reset? It's done",
+            "note": "討論、請求、弱判斷或否定，不代表已確認的重置"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
     {
       "version": "b67fd59b479a6010d7bf14dcd27b877ed837898b135d1997697b6e882227239e",
       "id": "2109812360596865224",
@@ -540,30 +564,6 @@
             "end": null,
             "evidence": "We are loading a banked reset into all accounts of our Plus, Pro and Business users",
             "note": "原文沒有可確定的時間"
-          }
-        }
-      ],
-      "deliveryChannels": [],
-      "origin": "live"
-    },
-    {
-      "version": "e05dd323527a8b908b4c23cec5e46b4d980f00ee8251f16490c8b74ff1ee9235",
-      "id": "2102254445082116335",
-      "text": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
-      "url": "https://x.com/thsottiaux/status/2102254445082116335",
-      "postCreatedAt": "2026-09-22T04:31:32.000Z",
-      "detectedAt": "2026-09-22T04:32:36.635Z",
-      "events": [
-        {
-          "type": "mention",
-          "status": "uncertain",
-          "evidence": "We are almost Tuesday and I promised a reset for Tuesday",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "We are almost Tuesday and I promised a reset for Tuesday",
-            "note": "未形成明確的重置承諾或完成確認"
           }
         }
       ],

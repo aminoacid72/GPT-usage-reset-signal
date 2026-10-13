@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2109892247580000595",
-  "lastCheckedAt": "2026-10-13T20:48:25.495Z",
-  "lastSuccessAt": "2026-10-13T20:48:25.495Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 418,
+  "sinceId": "2110152344029778279",
+  "lastCheckedAt": "2026-10-13T23:58:17.976Z",
+  "lastSuccessAt": "2026-10-13T23:58:17.976Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 420,
   "matches": [
     {
       "version": "0c2365f179f9ebd9526f6652d6d5b41cd355a42feb13a8dbdee1544d6ad1da78",
@@ -992,15 +992,17 @@
     "2109865627628507222": "d25691d13be3699516346c3a179d68173a55352978239cdfd9433e97f7f51832",
     "2109873287853707513": "0c2365f179f9ebd9526f6652d6d5b41cd355a42feb13a8dbdee1544d6ad1da78",
     "2109873307722121591": "fe1678fa963750e9b262732c0a3e599c9ef5cf16697a4dc12848d387a1258389",
-    "2109892247580000595": "9ec684f1bc771ec2ed569308307348e25b287a006afaa8270650930947328856"
+    "2109892247580000595": "9ec684f1bc771ec2ed569308307348e25b287a006afaa8270650930947328856",
+    "2110151780478927344": "6fb0a19e1cc24589d3a2e26192f7b9693d1ac458ab3d2509ca13c6dab062c6d4",
+    "2110152344029778279": "bdb0a1b76f67a430b626f2175bbb4f1186a5060816e216830f8d55bd2e3dbc91"
   },
   "eventParserVersion": 6,
   "latestObservedPost": {
-    "id": "2109892247580000595",
-    "canonicalId": "2109892247580000595",
-    "text": "Good plans are simple. I have one that should result in significantly more usage for everyone. Hope to get it done soon.",
-    "createdAt": "2026-10-13T06:21:26.000Z",
-    "url": "https://x.com/thsottiaux/status/2109892247580000595",
+    "id": "2110152344029778279",
+    "canonicalId": "2110152344029778279",
+    "text": "@StefanoGPT Legit how I look like. Must have trained on my face data",
+    "createdAt": "2026-10-13T23:34:58.000Z",
+    "url": "https://x.com/thsottiaux/status/2110152344029778279",
     "media": []
   }
 }

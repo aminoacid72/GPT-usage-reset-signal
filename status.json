@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T20:48:25.501Z",
+  "updatedAt": "2026-10-13T23:58:17.982Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-13T20:48:25.495Z",
-    "lastSuccessAt": "2026-10-13T20:48:25.495Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-13T23:58:17.976Z",
+    "lastSuccessAt": "2026-10-13T23:58:17.976Z",
+    "lastRunStatus": "checked-2-posts"
   },
   "latestObservedPost": {
-    "id": "2109892247580000595",
-    "text": "Good plans are simple. I have one that should result in significantly more usage for everyone. Hope to get it done soon.",
-    "url": "https://x.com/thsottiaux/status/2109892247580000595",
-    "postCreatedAt": "2026-10-13T06:21:26.000Z"
+    "id": "2110152344029778279",
+    "text": "@StefanoGPT Legit how I look like. Must have trained on my face data",
+    "url": "https://x.com/thsottiaux/status/2110152344029778279",
+    "postCreatedAt": "2026-10-13T23:34:58.000Z"
   },
   "latest": {
     "reset": {

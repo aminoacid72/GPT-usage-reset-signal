@@ -4,15 +4,14 @@
   "keyword": "reset",
   "userId": "1953337039510003712",
   "sinceId": "2109892247580000595",
-  "lastCheckedAt": "2026-10-13T07:55:25.774Z",
-  "lastSuccessAt": "2026-10-13T07:55:25.774Z",
-  "lastRunStatus": "checked-10-posts",
+  "lastCheckedAt": "2026-10-13T15:33:13.155Z",
+  "lastSuccessAt": "2026-10-13T15:33:13.155Z",
+  "lastRunStatus": "checked-0-posts",
   "postsScanned": 418,
   "matches": [
     {
       "version": "0c2365f179f9ebd9526f6652d6d5b41cd355a42feb13a8dbdee1544d6ad1da78",
       "id": "2109873287853707513",
-      "canonicalId": "2109873287853707513",
       "text": "What would you like with your side of reset? It's done.",
       "createdAt": "2026-10-13T05:06:06.000Z",
       "url": "https://x.com/thsottiaux/status/2109873287853707513",
@@ -32,10 +31,10 @@
           }
         }
       ],
+      "notifiedAt": "2026-10-13T07:55:25.778Z",
       "channels": [
         "github-actions"
-      ],
-      "notifiedAt": "2026-10-13T07:55:25.778Z"
+      ]
     },
     {
       "version": "b67fd59b479a6010d7bf14dcd27b877ed837898b135d1997697b6e882227239e",

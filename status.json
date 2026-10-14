@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T23:58:17.982Z",
+  "updatedAt": "2026-10-14T04:20:49.605Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-13T23:58:17.976Z",
-    "lastSuccessAt": "2026-10-13T23:58:17.976Z",
+    "lastCheckedAt": "2026-10-14T04:20:49.600Z",
+    "lastSuccessAt": "2026-10-14T04:20:49.600Z",
     "lastRunStatus": "checked-2-posts"
   },
   "latestObservedPost": {
-    "id": "2110152344029778279",
-    "text": "@StefanoGPT Legit how I look like. Must have trained on my face data",
-    "url": "https://x.com/thsottiaux/status/2110152344029778279",
-    "postCreatedAt": "2026-10-13T23:34:58.000Z"
+    "id": "2110188326422819047",
+    "text": "@charliermarsh 😅",
+    "url": "https://x.com/thsottiaux/status/2110188326422819047",
+    "postCreatedAt": "2026-10-14T01:57:57.000Z"
   },
   "latest": {
     "reset": {

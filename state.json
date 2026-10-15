@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2110750421367287996",
-  "lastCheckedAt": "2026-10-15T21:41:35.578Z",
-  "lastSuccessAt": "2026-10-15T21:41:35.578Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 431,
+  "sinceId": "2110868151688912976",
+  "lastCheckedAt": "2026-10-15T23:52:44.838Z",
+  "lastSuccessAt": "2026-10-15T23:52:44.838Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 434,
   "matches": [
     {
       "version": "26278fd8a9f9deb053233cc5114c40ba3cdd311bd6aa75bc2688d88afeb12443",
@@ -1017,15 +1017,18 @@
     "2110612268962779352": "4f39d52a7c7deee6cfa9c721b959c52f615e08675a640524b8baaf8b1a6ad1ab",
     "2110618732666257557": "996d7cf9247938296f825c7bd9eac307760773d5fd36fb40dc9f0e8c4c806639",
     "2110624335463584028": "dbb755b91b9555b5b948fe74ed1665aad1fb20e53918a88be35338e80709d37e",
-    "2110750421367287996": "9ab399408adb8eb52756a9a678e0deee64aeb1a7a41f97881af9a56eb96cd563"
+    "2110750421367287996": "9ab399408adb8eb52756a9a678e0deee64aeb1a7a41f97881af9a56eb96cd563",
+    "2110864606088593672": "aa29d9505c89a120101741f8542598b27678e81f2764b469378d7bb205839856",
+    "2110864861119045840": "7c01c36f84f2df7ff886a01ac470952631c66d4f5ef7b0c118f194a029f243b4",
+    "2110868151688912976": "d0f703759921ebb86fb9b42b879f0e424d9cafa69f4e9f3902432ab3c021a5be"
   },
   "eventParserVersion": 6,
   "latestObservedPost": {
-    "id": "2110750421367287996",
-    "canonicalId": "2110750421367287996",
-    "text": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it.\n\nLet us know if you still see it out there in the wild and we'll take a look.",
-    "createdAt": "2026-10-15T15:11:30.000Z",
-    "url": "https://x.com/thsottiaux/status/2110750421367287996",
+    "id": "2110868151688912976",
+    "canonicalId": "2110868151688912976",
+    "text": "@_simonsmith Spot on",
+    "createdAt": "2026-10-15T22:59:20.000Z",
+    "url": "https://x.com/thsottiaux/status/2110868151688912976",
     "media": []
   }
 }

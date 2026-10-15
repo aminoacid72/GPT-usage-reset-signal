@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2110624335463584028",
-  "lastCheckedAt": "2026-10-15T14:26:35.625Z",
-  "lastSuccessAt": "2026-10-15T14:26:35.625Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 430,
+  "sinceId": "2110750421367287996",
+  "lastCheckedAt": "2026-10-15T18:30:50.267Z",
+  "lastSuccessAt": "2026-10-15T18:30:50.267Z",
+  "lastRunStatus": "checked-1-posts",
+  "postsScanned": 431,
   "matches": [
     {
       "version": "26278fd8a9f9deb053233cc5114c40ba3cdd311bd6aa75bc2688d88afeb12443",
@@ -1016,15 +1016,16 @@
     "2110595987542868381": "bd69f639e6d4d9b1fb5a17b02b396c8c828ee0809385f585a29f7fb8cf7a5954",
     "2110612268962779352": "4f39d52a7c7deee6cfa9c721b959c52f615e08675a640524b8baaf8b1a6ad1ab",
     "2110618732666257557": "996d7cf9247938296f825c7bd9eac307760773d5fd36fb40dc9f0e8c4c806639",
-    "2110624335463584028": "dbb755b91b9555b5b948fe74ed1665aad1fb20e53918a88be35338e80709d37e"
+    "2110624335463584028": "dbb755b91b9555b5b948fe74ed1665aad1fb20e53918a88be35338e80709d37e",
+    "2110750421367287996": "9ab399408adb8eb52756a9a678e0deee64aeb1a7a41f97881af9a56eb96cd563"
   },
   "eventParserVersion": 6,
   "latestObservedPost": {
-    "id": "2110624335463584028",
-    "canonicalId": "2110624335463584028",
-    "text": "@theo Nice. Will fix",
-    "createdAt": "2026-10-15T06:50:29.000Z",
-    "url": "https://x.com/thsottiaux/status/2110624335463584028",
+    "id": "2110750421367287996",
+    "canonicalId": "2110750421367287996",
+    "text": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on it.\n\nLet us know if you still see it out there in the wild and we'll take a look.",
+    "createdAt": "2026-10-15T15:11:30.000Z",
+    "url": "https://x.com/thsottiaux/status/2110750421367287996",
     "media": []
   }
 }

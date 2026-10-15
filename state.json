@@ -3,16 +3,15 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2110595987542868381",
-  "lastCheckedAt": "2026-10-15T04:59:29.548Z",
-  "lastSuccessAt": "2026-10-15T04:59:29.548Z",
-  "lastRunStatus": "checked-5-posts",
-  "postsScanned": 427,
+  "sinceId": "2110624335463584028",
+  "lastCheckedAt": "2026-10-15T09:45:37.725Z",
+  "lastSuccessAt": "2026-10-15T09:45:37.725Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 430,
   "matches": [
     {
       "version": "26278fd8a9f9deb053233cc5114c40ba3cdd311bd6aa75bc2688d88afeb12443",
       "id": "2110595484180214059",
-      "canonicalId": "2110595484180214059",
       "text": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
       "createdAt": "2026-10-15T04:55:51.000Z",
       "url": "https://x.com/thsottiaux/status/2110595484180214059",
@@ -44,10 +43,10 @@
           }
         }
       ],
+      "notifiedAt": "2026-10-15T04:59:29.553Z",
       "channels": [
         "github-actions"
-      ],
-      "notifiedAt": "2026-10-15T04:59:29.553Z"
+      ]
     },
     {
       "version": "0c2365f179f9ebd9526f6652d6d5b41cd355a42feb13a8dbdee1544d6ad1da78",
@@ -1014,15 +1013,18 @@
     "2110591392691159317": "e027ff75ceba8f60c5aa786d1f0b4d6cb7e4cdf48a215bcabdaff6aada25ba35",
     "2110595484180214059": "26278fd8a9f9deb053233cc5114c40ba3cdd311bd6aa75bc2688d88afeb12443",
     "2110595554036400151": "73915993aa7b4ccdbe8f83fbbe3b1ad3aba37875b1ddd8301cf9e0a1eebdf2b0",
-    "2110595987542868381": "bd69f639e6d4d9b1fb5a17b02b396c8c828ee0809385f585a29f7fb8cf7a5954"
+    "2110595987542868381": "bd69f639e6d4d9b1fb5a17b02b396c8c828ee0809385f585a29f7fb8cf7a5954",
+    "2110612268962779352": "4f39d52a7c7deee6cfa9c721b959c52f615e08675a640524b8baaf8b1a6ad1ab",
+    "2110618732666257557": "996d7cf9247938296f825c7bd9eac307760773d5fd36fb40dc9f0e8c4c806639",
+    "2110624335463584028": "dbb755b91b9555b5b948fe74ed1665aad1fb20e53918a88be35338e80709d37e"
   },
   "eventParserVersion": 6,
   "latestObservedPost": {
-    "id": "2110595987542868381",
-    "canonicalId": "2110595987542868381",
-    "text": "@amorriscode @poteto @theo If you’re not a bit afraid of your army, it’s not a good army",
-    "createdAt": "2026-10-15T04:57:51.000Z",
-    "url": "https://x.com/thsottiaux/status/2110595987542868381",
+    "id": "2110624335463584028",
+    "canonicalId": "2110624335463584028",
+    "text": "@theo Nice. Will fix",
+    "createdAt": "2026-10-15T06:50:29.000Z",
+    "url": "https://x.com/thsottiaux/status/2110624335463584028",
     "media": []
   }
 }

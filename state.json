@@ -3,12 +3,48 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111341888322314672",
-  "lastCheckedAt": "2026-10-17T16:03:38.155Z",
-  "lastSuccessAt": "2026-10-17T16:03:38.155Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 451,
+  "sinceId": "2111523665817047359",
+  "lastCheckedAt": "2026-10-17T18:25:17.479Z",
+  "lastSuccessAt": "2026-10-17T18:25:17.479Z",
+  "lastRunStatus": "checked-11-posts",
+  "postsScanned": 462,
   "matches": [
+    {
+      "version": "39697103a29962d0c82d2cdfeaaf3f169356770f892850e6d9e558a2f17d57d7",
+      "id": "2111492673890824348",
+      "canonicalId": "2111492673890824348",
+      "text": "Day 13/ Le limit reset https://t.co/zXd2DIH5xf",
+      "createdAt": "2026-10-17T16:20:57.000Z",
+      "url": "https://x.com/thsottiaux/status/2111492673890824348",
+      "media": [
+        {
+          "mediaKey": "2111492634128920576",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HU2HXRMbsAAqviR.jpg?name=orig",
+          "previewImageUrl": null,
+          "altText": null
+        }
+      ],
+      "detectedAt": "2026-10-17T18:25:17.479Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Day 13/ Le limit reset https://t.co/zXd2DIH5xf",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Day 13/ Le limit reset https://t.co/zXd2DIH5xf",
+            "note": "未形成明確的重置承諾或完成確認"
+          }
+        }
+      ],
+      "channels": [
+        "github-actions"
+      ],
+      "notifiedAt": "2026-10-17T18:25:17.484Z"
+    },
     {
       "version": "26278fd8a9f9deb053233cc5114c40ba3cdd311bd6aa75bc2688d88afeb12443",
       "id": "2110595484180214059",
@@ -556,33 +592,6 @@
       "channels": [
         "github-actions"
       ]
-    },
-    {
-      "version": "fe032afe05c5aa6956f6cdc5955ff3d20e12ab796852e5073df907c5450300fe",
-      "id": "2103637477760311522",
-      "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work\n\nsorry about the brief disruption!\n\n(and yes we have a special spare codex when things are down to help us out)",
-      "createdAt": "2026-09-26T00:07:13.000Z",
-      "url": "https://x.com/thsottiaux/status/2103637477760311522",
-      "media": [],
-      "detectedAt": "2026-09-26T00:07:32.430Z",
-      "events": [
-        {
-          "type": "mention",
-          "status": "uncertain",
-          "evidence": "we’ll reset usage limits for all paid users across codex and ChatGPT work",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "we’ll reset usage limits for all paid users across codex and ChatGPT work",
-            "note": "未形成明確的重置承諾或完成確認"
-          }
-        }
-      ],
-      "notifiedAt": "2026-09-26T00:07:32.435Z",
-      "channels": [
-        "github-actions"
-      ]
     }
   ],
   "outbox": [],
@@ -1037,15 +1046,26 @@
     "2111337472349343856": "f52ebbfaae21f307ac2e0227ea2003f4f22c54df7b38cabbf6253eb0a43b5853",
     "2111338115667509490": "616cb939eb104d1682317d5373b11ab56e88cc67a70fba52eee33cbfba0eaf3c",
     "2111339932614861298": "82b1dae819e850b94dcea0128e148c52677f1aa0191579b83462bc0c38d889fb",
-    "2111341888322314672": "d2681eabf4574cce53ac494363055b5dc1f5c0877985cace0da168e8526acd73"
+    "2111341888322314672": "d2681eabf4574cce53ac494363055b5dc1f5c0877985cace0da168e8526acd73",
+    "2111491105120547265": "26773c25c2b35ed67f86af4c0f2e363c32ba29c7edb689aee2c28627ad30fc88",
+    "2111492028177723532": "ee4691b223bce3bdd0e4ca6fd45d1f925b368acff7694542b8a3427fad12d64a",
+    "2111492673890824348": "39697103a29962d0c82d2cdfeaaf3f169356770f892850e6d9e558a2f17d57d7",
+    "2111492738025959922": "5fe871f49ebf8b3dcc5f177868206d637165a25dd6b3a380669da68f0b84c554",
+    "2111493076850229733": "be56a8690a86a95c9eb5f83ddd8a246c079828d4320ede5942fcc152779f9e9c",
+    "2111495392559067199": "9ecb634bd92e9578282dbbc5b78614c3d46e757fc4e81b6e5a78f3821a0c3489",
+    "2111495569806065883": "e3af21cf8ad4f03c93abf616c2b18b90c37e2775b604dc61d5c50ea9e5ce5ebe",
+    "2111519953564368960": "7a901ede6bf23f3b34e824c4367989f5d6e9e3091e3aa0044dd91aa5b76d47e1",
+    "2111522308666077527": "8af3a5a77e4ea528b67b31a77a2d2516c81cbbeb74e9017eb5a2d9850729ad08",
+    "2111523462372372942": "73086ce52d13dd10922257a2d876e906765e756e5ded47ecc14726a0fd9252b1",
+    "2111523665817047359": "9031dd49c146b84a7852da204b66db81d7208655b84fe4fcfafdcdaa5063b76b"
   },
   "eventParserVersion": 6,
   "latestObservedPost": {
-    "id": "2111341888322314672",
-    "canonicalId": "2111341888322314672",
-    "text": "@steipete 💀",
-    "createdAt": "2026-10-17T06:21:47.000Z",
-    "url": "https://x.com/thsottiaux/status/2111341888322314672",
+    "id": "2111523665817047359",
+    "canonicalId": "2111523665817047359",
+    "text": "@ajambrosino @petergyang @amorriscode 🍺👌",
+    "createdAt": "2026-10-17T18:24:06.000Z",
+    "url": "https://x.com/thsottiaux/status/2111523665817047359",
     "media": []
   }
 }

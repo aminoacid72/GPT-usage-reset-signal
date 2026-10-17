@@ -4,15 +4,14 @@
   "keyword": "reset",
   "userId": "1953337039510003712",
   "sinceId": "2111523665817047359",
-  "lastCheckedAt": "2026-10-17T18:25:17.479Z",
-  "lastSuccessAt": "2026-10-17T18:25:17.479Z",
-  "lastRunStatus": "checked-11-posts",
+  "lastCheckedAt": "2026-10-17T20:48:13.315Z",
+  "lastSuccessAt": "2026-10-17T20:48:13.315Z",
+  "lastRunStatus": "checked-0-posts",
   "postsScanned": 462,
   "matches": [
     {
       "version": "39697103a29962d0c82d2cdfeaaf3f169356770f892850e6d9e558a2f17d57d7",
       "id": "2111492673890824348",
-      "canonicalId": "2111492673890824348",
       "text": "Day 13/ Le limit reset https://t.co/zXd2DIH5xf",
       "createdAt": "2026-10-17T16:20:57.000Z",
       "url": "https://x.com/thsottiaux/status/2111492673890824348",
@@ -40,10 +39,10 @@
           }
         }
       ],
+      "notifiedAt": "2026-10-17T18:25:17.484Z",
       "channels": [
         "github-actions"
-      ],
-      "notifiedAt": "2026-10-17T18:25:17.484Z"
+      ]
     },
     {
       "version": "26278fd8a9f9deb053233cc5114c40ba3cdd311bd6aa75bc2688d88afeb12443",

@@ -3,12 +3,40 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111849858374177222",
-  "lastCheckedAt": "2026-10-18T18:55:30.566Z",
-  "lastSuccessAt": "2026-10-18T18:55:30.566Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 467,
+  "sinceId": "2111918768733753664",
+  "lastCheckedAt": "2026-10-18T21:15:03.518Z",
+  "lastSuccessAt": "2026-10-18T21:15:03.518Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 469,
   "matches": [
+    {
+      "version": "f7a9422b6a050344dbc8758d9fc575a4cb52ebca200291e6ef9bbe222fe2119d",
+      "id": "2111918768733753664",
+      "canonicalId": "2111918768733753664",
+      "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
+      "createdAt": "2026-10-18T20:34:06.000Z",
+      "url": "https://x.com/thsottiaux/status/2111918768733753664",
+      "media": [],
+      "detectedAt": "2026-10-18T21:15:03.518Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "People have escaped the TL and are asking me for resets on the street now",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "People have escaped the TL and are asking me for resets on the street now",
+            "note": "未形成明確的重置承諾或完成確認"
+          }
+        }
+      ],
+      "channels": [
+        "github-actions"
+      ],
+      "notifiedAt": "2026-10-18T21:15:03.522Z"
+    },
     {
       "version": "39697103a29962d0c82d2cdfeaaf3f169356770f892850e6d9e558a2f17d57d7",
       "id": "2111492673890824348",
@@ -564,33 +592,6 @@
       "channels": [
         "github-actions"
       ]
-    },
-    {
-      "version": "d261afc190875454fd0bc3dcd8f9295084e6dd74731c61ed6c149b223620b452",
-      "id": "2103911959544610829",
-      "text": "Resets all propagated. That will be all. Have a fantastic weekend.",
-      "createdAt": "2026-09-26T18:17:54.000Z",
-      "url": "https://x.com/thsottiaux/status/2103911959544610829",
-      "media": [],
-      "detectedAt": "2026-09-26T18:18:20.679Z",
-      "events": [
-        {
-          "type": "reset",
-          "status": "completed",
-          "evidence": "Resets all propagated",
-          "time": {
-            "kind": "observed",
-            "start": "2026-09-26T18:17:54.000Z",
-            "end": null,
-            "evidence": "Resets all propagated",
-            "note": "使用公告發文時間；不代表帳戶實際重置時刻"
-          }
-        }
-      ],
-      "notifiedAt": "2026-09-26T18:18:20.685Z",
-      "channels": [
-        "github-actions"
-      ]
     }
   ],
   "outbox": [],
@@ -1061,15 +1062,17 @@
     "2111583927156760690": "a8bd68d5cb406c9d31c31480d73fdcdbe1fb6c4964c7d1f2c209198ee06db4fb",
     "2111687989328011357": "882386b897990d20e3ff22181637a13aa8b273552318504bfa4dce5004f2c6de",
     "2111832959842161136": "9fb2b75f1050510272022d5802c4b077e29e189949faf137937f7998786e2310",
-    "2111849858374177222": "08a4c29a8b6f58c56bfe084be81b128ca6957337bb8cb4d4207eb4ca4062c74a"
+    "2111849858374177222": "08a4c29a8b6f58c56bfe084be81b128ca6957337bb8cb4d4207eb4ca4062c74a",
+    "2111918635849801739": "5de74bed76286972541eb1f7676ead6096a46e1d22532eb68658d32ba0a38edc",
+    "2111918768733753664": "f7a9422b6a050344dbc8758d9fc575a4cb52ebca200291e6ef9bbe222fe2119d"
   },
   "eventParserVersion": 6,
   "latestObservedPost": {
-    "id": "2111849858374177222",
-    "canonicalId": "2111849858374177222",
-    "text": "What’s cooking today",
-    "createdAt": "2026-10-18T16:00:17.000Z",
-    "url": "https://x.com/thsottiaux/status/2111849858374177222",
+    "id": "2111918768733753664",
+    "canonicalId": "2111918768733753664",
+    "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
+    "createdAt": "2026-10-18T20:34:06.000Z",
+    "url": "https://x.com/thsottiaux/status/2111918768733753664",
     "media": []
   }
 }

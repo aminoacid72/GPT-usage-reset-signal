@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T01:43:04.675Z",
+  "updatedAt": "2026-10-20T06:39:40.250Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-20T01:43:04.669Z",
-    "lastSuccessAt": "2026-10-20T01:43:04.669Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-20T06:39:40.238Z",
+    "lastSuccessAt": "2026-10-20T06:39:40.238Z",
+    "lastRunStatus": "checked-2-posts"
   },
   "latestObservedPost": {
-    "id": "2112268918681485431",
-    "text": "Day 15/ We're cooked",
-    "url": "https://x.com/thsottiaux/status/2112268918681485431",
-    "postCreatedAt": "2026-10-19T19:45:28.000Z"
+    "id": "2112432076767289678",
+    "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+    "url": "https://x.com/thsottiaux/status/2112432076767289678",
+    "postCreatedAt": "2026-10-20T06:33:48.000Z"
   },
   "latest": {
     "reset": {
@@ -67,6 +67,30 @@
     "bankExpiry": null
   },
   "recent": [
+    {
+      "version": "4d9af2b3bec9bb61cf8d47e37ee68ba3439228225d37ef8a38314cc8826cac0b",
+      "id": "2112432076767289678",
+      "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "postCreatedAt": "2026-10-20T06:33:48.000Z",
+      "detectedAt": "2026-10-20T06:39:40.238Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "and reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "and reset",
+            "note": "未形成明確的重置承諾或完成確認"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
     {
       "version": "f7a9422b6a050344dbc8758d9fc575a4cb52ebca200291e6ef9bbe222fe2119d",
       "id": "2111918768733753664",
@@ -551,30 +575,6 @@
             "start": null,
             "end": null,
             "evidence": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset",
-            "note": "未形成明確的重置承諾或完成確認"
-          }
-        }
-      ],
-      "deliveryChannels": [],
-      "origin": "live"
-    },
-    {
-      "version": "6318f9d8a246e13f79341d9899d5506a36c826782b7fa20a328fe7948e26e8a0",
-      "id": "2103963215885701493",
-      "text": "@giadotai Sorry Gia. More resets coming next week",
-      "url": "https://x.com/thsottiaux/status/2103963215885701493",
-      "postCreatedAt": "2026-09-26T21:41:35.000Z",
-      "detectedAt": "2026-09-26T21:43:22.460Z",
-      "events": [
-        {
-          "type": "mention",
-          "status": "uncertain",
-          "evidence": "More resets coming next week",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "More resets coming next week",
             "note": "未形成明確的重置承諾或完成確認"
           }
         }

@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T06:37:36.109Z",
+  "updatedAt": "2026-10-21T12:23:38.406Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-21T06:37:36.103Z",
-    "lastSuccessAt": "2026-10-21T06:37:36.103Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-21T12:23:38.396Z",
+    "lastSuccessAt": "2026-10-21T12:23:38.396Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2112712984644784534",
-    "text": "Day 16/\n\nYou can now cache for 12h in the API and for logged in users across Codex &amp; Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache.",
-    "url": "https://x.com/thsottiaux/status/2112712984644784534",
-    "postCreatedAt": "2026-10-21T01:10:02.000Z"
+    "id": "2112798407928713717",
+    "text": "@theo I demand a reset",
+    "url": "https://x.com/thsottiaux/status/2112798407928713717",
+    "postCreatedAt": "2026-10-21T06:49:29.000Z"
   },
   "latest": {
     "reset": {
@@ -67,6 +67,30 @@
     "bankExpiry": null
   },
   "recent": [
+    {
+      "version": "ed5d41aa8bfe4c73cc891ac09420b29bbe0115dd803c2ce9430be134be21cf44",
+      "id": "2112798407928713717",
+      "text": "@theo I demand a reset",
+      "url": "https://x.com/thsottiaux/status/2112798407928713717",
+      "postCreatedAt": "2026-10-21T06:49:29.000Z",
+      "detectedAt": "2026-10-21T12:23:38.396Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "@theo I demand a reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "@theo I demand a reset",
+            "note": "未形成明確的重置承諾或完成確認"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
     {
       "version": "4d9af2b3bec9bb61cf8d47e37ee68ba3439228225d37ef8a38314cc8826cac0b",
       "id": "2112432076767289678",
@@ -552,30 +576,6 @@
             "start": "2026-10-02T18:00:00.000Z",
             "end": null,
             "evidence": "tomorrow 10am PST"
-          }
-        }
-      ],
-      "deliveryChannels": [],
-      "origin": "live"
-    },
-    {
-      "version": "167a269c5773a9f503592fe0b0b5df1cde533a29f9c0c1145fa8cac12081882e",
-      "id": "2105672058269212820",
-      "text": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset. I need to come up with something new fast.",
-      "url": "https://x.com/thsottiaux/status/2105672058269212820",
-      "postCreatedAt": "2026-10-01T14:51:54.000Z",
-      "detectedAt": "2026-10-01T14:53:35.381Z",
-      "events": [
-        {
-          "type": "mention",
-          "status": "uncertain",
-          "evidence": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset",
-            "note": "未形成明確的重置承諾或完成確認"
           }
         }
       ],

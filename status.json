@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T01:56:38.725Z",
+  "updatedAt": "2026-10-22T07:12:06.261Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-22T01:56:38.720Z",
-    "lastSuccessAt": "2026-10-22T01:56:38.720Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-22T07:12:06.250Z",
+    "lastSuccessAt": "2026-10-22T07:12:06.250Z",
+    "lastRunStatus": "checked-3-posts"
   },
   "latestObservedPost": {
-    "id": "2113029854417600834",
-    "text": "Fully included in the Pro plan, doesn't draw on your weekly usage.",
-    "url": "https://x.com/thsottiaux/status/2113029854417600834",
-    "postCreatedAt": "2026-10-21T22:09:10.000Z"
+    "id": "2113163458867032238",
+    "text": "@ebloch Hefty",
+    "url": "https://x.com/thsottiaux/status/2113163458867032238",
+    "postCreatedAt": "2026-10-22T07:00:03.000Z"
   },
   "latest": {
     "reset": {
@@ -67,6 +67,30 @@
     "bankExpiry": null
   },
   "recent": [
+    {
+      "version": "2417cdb9e6c0e6c4846af3702c3c24fb721ec4961912d951745e526999497bd1",
+      "id": "2113162277688070445",
+      "text": "Day 17/ Bet you thought we forgot, but no, it’s reset day today.\n\nAlso good time to remind you to get Daybreak Blue access, it only takes 15 mins and you don’t want to have to do it in the middle of an incident.",
+      "url": "https://x.com/thsottiaux/status/2113162277688070445",
+      "postCreatedAt": "2026-10-22T06:55:22.000Z",
+      "detectedAt": "2026-10-22T07:12:06.250Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Day 17/ Bet you thought we forgot, but no, it’s reset day today",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Day 17/ Bet you thought we forgot, but no, it’s reset day today",
+            "note": "未形成明確的重置承諾或完成確認"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
     {
       "version": "ed5d41aa8bfe4c73cc891ac09420b29bbe0115dd803c2ce9430be134be21cf44",
       "id": "2112798407928713717",
@@ -553,29 +577,6 @@
             "end": null,
             "evidence": "Reset all propagated",
             "note": "使用公告發文時間；不代表帳戶實際重置時刻"
-          }
-        }
-      ],
-      "deliveryChannels": [],
-      "origin": "live"
-    },
-    {
-      "version": "b02c185e6d38a85aef44055aeecbb23e288971261e952c941d61762839440884",
-      "id": "2105843926221660585",
-      "text": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
-      "url": "https://x.com/thsottiaux/status/2105843926221660585",
-      "postCreatedAt": "2026-10-02T02:14:51.000Z",
-      "detectedAt": "2026-10-02T02:17:26.112Z",
-      "events": [
-        {
-          "type": "reset",
-          "status": "scheduled",
-          "evidence": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts",
-          "time": {
-            "kind": "exact",
-            "start": "2026-10-02T18:00:00.000Z",
-            "end": null,
-            "evidence": "tomorrow 10am PST"
           }
         }
       ],

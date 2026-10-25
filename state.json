@@ -3,12 +3,68 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2114125878804545940",
-  "lastCheckedAt": "2026-10-25T01:33:16.870Z",
-  "lastSuccessAt": "2026-10-25T01:33:16.870Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 508,
+  "sinceId": "2114237441250828563",
+  "lastCheckedAt": "2026-10-25T06:45:51.934Z",
+  "lastSuccessAt": "2026-10-25T06:45:51.934Z",
+  "lastRunStatus": "checked-7-posts",
+  "postsScanned": 515,
   "matches": [
+    {
+      "version": "b9d449b7729cd88e67ea3d4e502de24abc9b87cbe3e939a8b0ef8c3126c5ce58",
+      "id": "2114228044072403055",
+      "canonicalId": "2114228044072403055",
+      "text": "@theo Not a real improvement, put the reset in the bag",
+      "createdAt": "2026-10-25T05:30:20.000Z",
+      "url": "https://x.com/thsottiaux/status/2114228044072403055",
+      "media": [],
+      "detectedAt": "2026-10-25T06:45:51.934Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "@theo Not a real improvement, put the reset in the bag",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "@theo Not a real improvement, put the reset in the bag",
+            "note": "討論、請求、弱判斷或否定，不代表已確認的重置"
+          }
+        }
+      ],
+      "channels": [
+        "github-actions"
+      ],
+      "notifiedAt": "2026-10-25T06:45:51.942Z"
+    },
+    {
+      "version": "72f6ac530cb6d09cb0c957d3535c8768295542be3bfd44f88d1ecb0c18a872b4",
+      "id": "2114200152701575656",
+      "canonicalId": "2114200152701575656",
+      "text": "Day 20/ Rest and reset",
+      "createdAt": "2026-10-25T03:39:31.000Z",
+      "url": "https://x.com/thsottiaux/status/2114200152701575656",
+      "media": [],
+      "detectedAt": "2026-10-25T06:45:51.933Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Day 20/ Rest and reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Day 20/ Rest and reset",
+            "note": "未形成明確的重置承諾或完成確認"
+          }
+        }
+      ],
+      "channels": [
+        "github-actions"
+      ],
+      "notifiedAt": "2026-10-25T06:45:51.938Z"
+    },
     {
       "version": "84e83973968a4c109d3e23f1603ecf6dbb16af8820693e625bd2006eebeccbfb",
       "id": "2113492187770175603",
@@ -538,60 +594,6 @@
       "channels": [
         "github-actions"
       ]
-    },
-    {
-      "version": "634cee8d4bc3c33cda61db1b50c369936dd953aad5b9f2f8e910166b36a2efeb",
-      "id": "2106845241357824205",
-      "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
-      "createdAt": "2026-10-04T20:33:43.000Z",
-      "url": "https://x.com/thsottiaux/status/2106845241357824205",
-      "media": [],
-      "detectedAt": "2026-10-04T20:37:29.275Z",
-      "events": [
-        {
-          "type": "mention",
-          "status": "uncertain",
-          "evidence": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset",
-            "note": "未形成明確的重置承諾或完成確認"
-          }
-        }
-      ],
-      "notifiedAt": "2026-10-04T20:37:29.280Z",
-      "channels": [
-        "github-actions"
-      ]
-    },
-    {
-      "version": "8d648cfa3f70b05d1282442dffd0dadac8cd4f88b8eb31561308956090ce3da1",
-      "id": "2106233145163141249",
-      "text": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier. Investigating and will make up for it",
-      "createdAt": "2026-10-03T04:01:28.000Z",
-      "url": "https://x.com/thsottiaux/status/2106233145163141249",
-      "media": [],
-      "detectedAt": "2026-10-03T04:02:27.379Z",
-      "events": [
-        {
-          "type": "reset",
-          "status": "announced",
-          "evidence": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier",
-            "note": "原文沒有可確定的時間"
-          }
-        }
-      ],
-      "notifiedAt": "2026-10-03T04:02:27.384Z",
-      "channels": [
-        "github-actions"
-      ]
     }
   ],
   "outbox": [],
@@ -1103,15 +1105,22 @@
     "2114074885622501706": "5521d1024877be88cfb239eae896fb336b880e5126613718f3feff18284f5578",
     "2114086171907428846": "a342bb3b47c16b6ad528fcf765f7380babfc6ab3dcbf0d78adcb2b7dc5bf0fb8",
     "2114125293124542632": "4b6e06913bca8be3b5cd30c5fcda1375c778886723d43936f116a16df1adff74",
-    "2114125878804545940": "1f762be636e3eb7e8159aabb200fd144b41700aa9c5193897142231b4f4201ec"
+    "2114125878804545940": "1f762be636e3eb7e8159aabb200fd144b41700aa9c5193897142231b4f4201ec",
+    "2114199013176303641": "24ef83efe450d7b02ff9457cd244c707b5e90fcfc1ca7704c8f57f0a897dc902",
+    "2114200152701575656": "72f6ac530cb6d09cb0c957d3535c8768295542be3bfd44f88d1ecb0c18a872b4",
+    "2114200291319124163": "b8775d91a923e8d235a471cd4053c3cbb1e73ff22575f20b235b4e8d4ab61e2d",
+    "2114228044072403055": "b9d449b7729cd88e67ea3d4e502de24abc9b87cbe3e939a8b0ef8c3126c5ce58",
+    "2114228445043691592": "8dbf1139cc31522a4bec626bbb697beabd39584ef74f629e5728244acbf21f04",
+    "2114237083652882932": "e11088d05c6a6731b59c54c04e644b84ed599490b9fb9f3cac2646c3d90cffda",
+    "2114237441250828563": "95be22ce3395bad7c6df058728aa637d32831bf0793a0d3183ef566afb807461"
   },
   "eventParserVersion": 6,
   "latestObservedPost": {
-    "id": "2114125878804545940",
-    "canonicalId": "2114125878804545940",
-    "text": "@mitsuhiko I doubt they are on twitter",
-    "createdAt": "2026-10-24T22:44:22.000Z",
-    "url": "https://x.com/thsottiaux/status/2114125878804545940",
+    "id": "2114237441250828563",
+    "canonicalId": "2114237441250828563",
+    "text": "@ScriptedAlchemy .com",
+    "createdAt": "2026-10-25T06:07:41.000Z",
+    "url": "https://x.com/thsottiaux/status/2114237441250828563",
     "media": []
   }
 }

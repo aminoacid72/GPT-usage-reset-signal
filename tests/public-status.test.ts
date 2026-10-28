@@ -45,6 +45,18 @@ describe("public status projection", () => {
       state,
       "fxembed",
       "2026-09-09T03:00:01Z",
+      {
+        source: "codex-resets",
+        kind: "scheduled",
+        start: "2026-09-09T04:00:00.000Z",
+        end: null,
+        chancePercent: null,
+        text: "Reset scheduled.",
+        url: "https://x.com/thsottiaux/status/2097000000000000001",
+        sourceLabel: "Codex Resets",
+        sourceUrl: "https://codex-resets.com/",
+        validUntil: "2026-09-09T06:00:00.000Z",
+      },
     );
     expect(status.latest.reset?.id).toBe("2097000000000000000");
     expect(status.latest.reset?.origin).toBe("live");
@@ -53,6 +65,11 @@ describe("public status projection", () => {
       "2026-09-09T03:00:00Z",
     );
     expect(status.latestObservedPost?.id).toBe("2098000000000000000");
+    expect(status.resetHint).toMatchObject({
+      source: "codex-resets",
+      kind: "scheduled",
+      start: "2026-09-09T04:00:00.000Z",
+    });
     expect(status.recent.map((item) => item.id)).toEqual([
       "2097000000000000000",
       "2096035437299237298",

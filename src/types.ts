@@ -74,6 +74,19 @@ export type PublicObservedPost = {
   postCreatedAt: string | null;
 };
 
+export type PublicResetHint = {
+  source: "codex-resets";
+  kind: "scheduled" | "watch" | "completed";
+  start: string | null;
+  end: string | null;
+  chancePercent: number | null;
+  text: string;
+  url: string | null;
+  sourceLabel: string;
+  sourceUrl: string;
+  validUntil: string;
+};
+
 export type PublicStatus = {
   schemaVersion: 1;
   updatedAt: string;
@@ -86,6 +99,7 @@ export type PublicStatus = {
     lastRunStatus: string;
   };
   latestObservedPost: PublicObservedPost | null;
+  resetHint?: PublicResetHint | null;
   latest: {
     reset: PublicSignal | null;
     bankCredit: PublicSignal | null;
@@ -96,6 +110,7 @@ export type PublicStatus = {
 
 export type AppConfig = {
   sourceProvider: "fxembed" | "x";
+  codexResetsEnabled?: boolean;
   timezone: string;
   sourceTimezone?: string;
   telegramBotToken?: string;

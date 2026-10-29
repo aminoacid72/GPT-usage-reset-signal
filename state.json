@@ -3,12 +3,40 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2115649073302904875",
-  "lastCheckedAt": "2026-10-29T11:43:27.228Z",
-  "lastSuccessAt": "2026-10-29T11:43:27.228Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 545,
+  "sinceId": "2115851811576053881",
+  "lastCheckedAt": "2026-10-29T17:33:47.812Z",
+  "lastSuccessAt": "2026-10-29T17:33:47.812Z",
+  "lastRunStatus": "checked-5-posts",
+  "postsScanned": 550,
   "matches": [
+    {
+      "version": "41e2cbc827fd7f3e134d57e3399dca1567f6cd5a1510eb3e471d695bbe32949f",
+      "id": "2115851621137784832",
+      "canonicalId": "2115851621137784832",
+      "text": "Graduating from The Reset Company to The Token Company.",
+      "createdAt": "2026-10-29T17:01:51.000Z",
+      "url": "https://x.com/thsottiaux/status/2115851621137784832",
+      "media": [],
+      "detectedAt": "2026-10-29T17:33:47.812Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Graduating from The Reset Company to The Token Company",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Graduating from The Reset Company to The Token Company",
+            "note": "未形成明確的重置承諾或完成確認"
+          }
+        }
+      ],
+      "channels": [
+        "github-actions"
+      ],
+      "notifiedAt": "2026-10-29T17:33:47.816Z"
+    },
     {
       "version": "81aa0416a461f3aedd751e42cca996b60e3af36c5e8c7e391f5ef7d01ce6ef61",
       "id": "2115273064481218829",
@@ -538,33 +566,6 @@
         }
       ],
       "notifiedAt": "2026-10-10T22:17:22.926Z",
-      "channels": [
-        "github-actions"
-      ]
-    },
-    {
-      "version": "ecc7339da4eebb3dc39327664289521ad6dfb66f2129c71a7e50119a4ced0557",
-      "id": "2107913674593644711",
-      "text": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
-      "createdAt": "2026-10-07T19:19:17.000Z",
-      "url": "https://x.com/thsottiaux/status/2107913674593644711",
-      "media": [],
-      "detectedAt": "2026-10-07T19:22:34.134Z",
-      "events": [
-        {
-          "type": "mention",
-          "status": "uncertain",
-          "evidence": "Loading a banked reset in everyone's paid accounts",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "Loading a banked reset in everyone's paid accounts",
-            "note": "原文沒有可確定的時間"
-          }
-        }
-      ],
-      "notifiedAt": "2026-10-07T19:22:34.139Z",
       "channels": [
         "github-actions"
       ]
@@ -1116,15 +1117,20 @@
     "2115622002581188681": "3c9c86b377d54385c34f4b6323c16131f61e4541a9c3a63c6d26b9177e641357",
     "2115648685069742441": "b4f67c3649e0fe237a45865c442520eb6c50b9b4872ff9222ae167d3cf1f8e93",
     "2115648938149818370": "efa9253050c7572d56456578267faa086d329d702cf5c3348a0511704ce56c5f",
-    "2115649073302904875": "d8e2e9496e44860fd929f1e13659d0b8b84fbfdfb7143ea68105981aa2191f62"
+    "2115649073302904875": "d8e2e9496e44860fd929f1e13659d0b8b84fbfdfb7143ea68105981aa2191f62",
+    "2115847315173069025": "e938869f6d32597f0664b3fe4e8c14d6eb82afc79294159aeadcbf979453b236",
+    "2115847364670030218": "841295eaa0d6e2a4f410e7e646a565f681e6284a174c0ce86c9674ffd77fe94c",
+    "2115850175868727621": "858d40140426f71c162979ade8a5a061f606c1f62b6e691532b0b5e3de17af2a",
+    "2115851621137784832": "41e2cbc827fd7f3e134d57e3399dca1567f6cd5a1510eb3e471d695bbe32949f",
+    "2115851811576053881": "3ffeeea7cb079ec71bd353a8f9e02ffb721a3defdabf165e194b1147a9f5372b"
   },
   "eventParserVersion": 6,
   "latestObservedPost": {
-    "id": "2115649073302904875",
-    "canonicalId": "2115649073302904875",
-    "text": "@rezoundous Low, but not zero",
-    "createdAt": "2026-10-29T03:37:00.000Z",
-    "url": "https://x.com/thsottiaux/status/2115649073302904875",
+    "id": "2115851811576053881",
+    "canonicalId": "2115851811576053881",
+    "text": "@StefanoGPT Yes",
+    "createdAt": "2026-10-29T17:02:37.000Z",
+    "url": "https://x.com/thsottiaux/status/2115851811576053881",
     "media": []
   }
 }

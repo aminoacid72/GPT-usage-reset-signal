@@ -1,19 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T00:01:30.718Z",
+  "updatedAt": "2026-10-29T00:07:34.456Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-29T00:01:30.710Z",
-    "lastSuccessAt": "2026-10-29T00:01:30.710Z",
-    "lastRunStatus": "checked-1-posts"
+    "lastCheckedAt": "2026-10-29T00:07:34.451Z",
+    "lastSuccessAt": "2026-10-29T00:07:34.451Z",
+    "lastRunStatus": "checked-0-posts"
   },
   "latestObservedPost": {
     "id": "2115588390414581916",
     "text": "Team is working on this but it's not rolling out just yet, sorry for any confusion. Plan is to bring together best of both Chat / Work capabilities together at some point this year, but we're going to proceed carefully here and take our time.\n\nWe'll have more to share soon.",
     "url": "https://x.com/thsottiaux/status/2115588390414581916",
     "postCreatedAt": "2026-10-28T23:35:52.000Z"
+  },
+  "resetHint": {
+    "source": "codex-resets",
+    "kind": "completed",
+    "start": "2026-10-28T06:29:38.000Z",
+    "end": null,
+    "chancePercent": null,
+    "text": "And it's done. See you tomorrow for some good news. https://t.co/WhJle2cWRG",
+    "url": "https://x.com/thsottiaux/status/2115330127886463244",
+    "sourceLabel": "Codex Resets",
+    "sourceUrl": "https://codex-resets.com/",
+    "validUntil": "2026-10-30T06:29:38.000Z"
   },
   "latest": {
     "reset": {

@@ -48,7 +48,7 @@ describe("event and time semantics", () => {
         "2026-09-09T01:00:00Z",
         "America/Los_Angeles",
       ).note,
-    ).toContain("假设");
+    ).toContain("假設");
   });
   it("does not invent a time for dates, soon or missing publication", () => {
     expect(

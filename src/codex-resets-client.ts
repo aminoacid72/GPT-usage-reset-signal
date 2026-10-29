@@ -100,7 +100,7 @@ export function normalizeCodexResetsStatus(
     const observedAt = iso(watch.observed_at) ?? now.toISOString();
     const expiresAt = iso(watch.expires_at);
     const expiresMs = expiresAt ? Date.parse(expiresAt) : NaN;
-    if (Number.isFinite(expiresMs) && expiresMs > nowMs) {
+    if (expiresAt && Number.isFinite(expiresMs) && expiresMs > nowMs) {
       return baseHint(
         "watch",
         watch,

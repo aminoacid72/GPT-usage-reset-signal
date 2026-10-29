@@ -6,6 +6,7 @@ import type {
   MatchRecord,
   MonitorState,
   PublicObservedPost,
+  PublicResetHint,
   PublicSignal,
   PublicStatus,
 } from "./types";
@@ -69,6 +70,7 @@ export function buildPublicStatus(
   state: MonitorState,
   provider: "fxembed" | "x",
   updatedAt = new Date().toISOString(),
+  resetHint: PublicResetHint | null = null,
 ): PublicStatus {
   const matches = state.matches.filter((match) => match.events.length > 0);
   const signals = mergeSignals(
@@ -87,6 +89,7 @@ export function buildPublicStatus(
       lastRunStatus: state.lastRunStatus,
     },
     latestObservedPost: toPublicObservedPost(state),
+    resetHint,
     latest: {
       reset: findLatest(signals, "reset"),
       bankCredit: findLatest(signals, "bank_credit"),

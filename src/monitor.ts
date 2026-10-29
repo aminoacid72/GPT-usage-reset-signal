@@ -1,7 +1,8 @@
 import { createHash } from "node:crypto";
 import { mkdir, open, unlink } from "node:fs/promises";
 import { dirname, join } from "node:path";
-import type { AppConfig, MatchRecord, MonitorState, XPost } from "./types";
+import type { AppConfig, MatchRecord, MonitorState, PublicResetHint, XPost } from "./types";
+import { fetchCodexResetsHint } from "./codex-resets-client";
 import { extractEvents } from "./events";
 import { containsKeyword } from "./matcher";
 import { createTargets, type NotificationTarget } from "./notifications";
@@ -28,13 +29,19 @@ export const postVersion = (post: XPost) =>
     .update(JSON.stringify([post.canonicalId ?? post.id, post.text, post.createdAt, post.media]))
     .digest("hex");
 
-async function persist(config: AppConfig, state: MonitorState, now: () => Date): Promise<void> {
+async function persist(
+  config: AppConfig,
+  state: MonitorState,
+  now: () => Date,
+  resetHint: PublicResetHint | null,
+): Promise<void> {
   await writeState(config.statePath, state);
   if (config.publicStatusPath) {
     const status = buildPublicStatus(
       state,
       config.sourceProvider,
       now().toISOString(),
+      resetHint,
     );
     await writePublicStatus(config.publicStatusPath, status);
     await writePublicFeed(join(dirname(config.publicStatusPath), "feed.xml"), status);
@@ -133,6 +140,15 @@ async function runLocked(config: AppConfig, deps: Dependencies): Promise<Monitor
   const targets = deps.targets ?? createTargets(config);
   if (!targets.length) throw new Error("No notification targets configured");
   const now = deps.now ?? (() => new Date());
+  let resetHint: PublicResetHint | null = null;
+  if (config.codexResetsEnabled === true) {
+    try {
+      resetHint = await fetchCodexResetsHint(now());
+    } catch {
+      // Codex Resets is an enrichment source. FxEmbed/X monitoring remains authoritative fallback.
+      resetHint = null;
+    }
+  }
   state.version = 2;
   state.outbox ??= [];
   state.seen ??= {};
@@ -140,7 +156,7 @@ async function runLocked(config: AppConfig, deps: Dependencies): Promise<Monitor
   state.lastSuccessAt ??= state.lastCheckedAt;
   const parserChanged = state.eventParserVersion !== EVENT_PARSER_VERSION;
   reprojectSavedMatches(state, config);
-  if (parserChanged && state.matches.length) await persist(config, state, now);
+  if (parserChanged && state.matches.length) await persist(config, state, now, resetHint);
   const errors: string[] = [];
   let fetched: Awaited<ReturnType<PostSource["getPosts"]>> | undefined;
   const bootstrap = state.sinceId === null;
@@ -205,7 +221,7 @@ async function runLocked(config: AppConfig, deps: Dependencies): Promise<Monitor
     state.lastCheckedAt = checkedAt;
     state.lastSuccessAt = checkedAt;
     state.lastRunStatus = bootstrap ? "bootstrapped" : `checked-${posts.length}-posts`;
-    await persist(config, state, now);
+    await persist(config, state, now, resetHint);
   }
 
   for (const item of [...state.outbox]) {
@@ -232,17 +248,17 @@ async function runLocked(config: AppConfig, deps: Dependencies): Promise<Monitor
           .filter((channel): channel is string => Boolean(channel));
         match.notifiedAt ??= now().toISOString();
       }
-      await persist(config, state, now);
+      await persist(config, state, now, resetHint);
     }
     if (item.targets.every((id) => item.delivered.includes(id))) {
       state.outbox = state.outbox.filter((pending) => pending.key !== item.key);
-      await persist(config, state, now);
+      await persist(config, state, now, resetHint);
     }
   }
 
   state.seen = Object.fromEntries(Object.entries(state.seen).slice(-2000));
   if (errors.length) state.lastRunStatus = `failed-${errors.length}`;
-  await persist(config, state, now);
+  await persist(config, state, now, resetHint);
   if (errors.length) throw new Error([...new Set(errors)].join("; "));
   return state;
 }

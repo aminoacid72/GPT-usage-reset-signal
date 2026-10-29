@@ -23,6 +23,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): AppConfig {
     (username.toLowerCase() === "thsottiaux" ? "America/Los_Angeles" : undefined);
   return {
     sourceProvider,
+    codexResetsEnabled: toBoolean(env.CODEX_RESETS_ENABLED, true),
     timezone: env.TARGET_TIMEZONE?.trim() || "Asia/Shanghai",
     sourceTimezone,
     telegramBotToken: env.TELEGRAM_BOT_TOKEN?.trim(),

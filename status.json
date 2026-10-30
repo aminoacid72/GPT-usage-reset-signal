@@ -1,32 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T01:45:14.199Z",
+  "updatedAt": "2026-10-30T07:44:44.981Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-30T01:45:14.193Z",
-    "lastSuccessAt": "2026-10-30T01:45:14.193Z",
-    "lastRunStatus": "checked-1-posts"
+    "lastCheckedAt": "2026-10-30T07:44:44.978Z",
+    "lastSuccessAt": "2026-10-30T07:44:44.978Z",
+    "lastRunStatus": "checked-4-posts"
   },
   "latestObservedPost": {
-    "id": "2115974268936712436",
-    "text": "@ajambrosino You merge, I split",
-    "url": "https://x.com/thsottiaux/status/2115974268936712436",
-    "postCreatedAt": "2026-10-30T01:09:13.000Z"
+    "id": "2116072117540417651",
+    "text": "@ajambrosino No hype, just shipping",
+    "url": "https://x.com/thsottiaux/status/2116072117540417651",
+    "postCreatedAt": "2026-10-30T07:38:02.000Z"
   },
-  "resetHint": {
-    "source": "codex-resets",
-    "kind": "completed",
-    "start": "2026-10-28T06:29:38.000Z",
-    "end": null,
-    "chancePercent": null,
-    "text": "And it's done. See you tomorrow for some good news. https://t.co/WhJle2cWRG",
-    "url": "https://x.com/thsottiaux/status/2115330127886463244",
-    "sourceLabel": "Codex Resets",
-    "sourceUrl": "https://codex-resets.com/",
-    "validUntil": "2026-10-30T06:29:38.000Z"
-  },
+  "resetHint": null,
   "latest": {
     "reset": {
       "version": "b67fd59b479a6010d7bf14dcd27b877ed837898b135d1997697b6e882227239e",

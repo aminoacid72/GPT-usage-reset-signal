@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T19:39:40.827Z",
+  "updatedAt": "2026-10-30T23:14:51.766Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-30T19:39:40.818Z",
-    "lastSuccessAt": "2026-10-30T19:39:40.818Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-30T23:14:51.755Z",
+    "lastSuccessAt": "2026-10-30T23:14:51.755Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2116072117540417651",
-    "text": "@ajambrosino No hype, just shipping",
-    "url": "https://x.com/thsottiaux/status/2116072117540417651",
-    "postCreatedAt": "2026-10-30T07:38:02.000Z"
+    "id": "2116256600436641887",
+    "text": "@claudeai Better announce 28 days of reset",
+    "url": "https://x.com/thsottiaux/status/2116256600436641887",
+    "postCreatedAt": "2026-10-30T19:51:06.000Z"
   },
   "resetHint": null,
   "latest": {
@@ -68,6 +68,30 @@
     "bankExpiry": null
   },
   "recent": [
+    {
+      "version": "42d1e792306fc62d5d3a8413bd25a38fb4c9ab5d530f62bb7e39a9179dfffb0a",
+      "id": "2116256600436641887",
+      "text": "@claudeai Better announce 28 days of reset",
+      "url": "https://x.com/thsottiaux/status/2116256600436641887",
+      "postCreatedAt": "2026-10-30T19:51:06.000Z",
+      "detectedAt": "2026-10-30T23:14:51.755Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "@claudeai Better announce 28 days of reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "@claudeai Better announce 28 days of reset",
+            "note": "未形成明確的重置承諾或完成確認"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
     {
       "version": "41e2cbc827fd7f3e134d57e3399dca1567f6cd5a1510eb3e471d695bbe32949f",
       "id": "2115851621137784832",
@@ -530,30 +554,6 @@
             "end": null,
             "evidence": "Global reset by EOD",
             "note": "原文沒有可確定的時間"
-          }
-        }
-      ],
-      "deliveryChannels": [],
-      "origin": "live"
-    },
-    {
-      "version": "e3dcd7beacba2d69639523394e1e5b92bbdd64ad09cef8ece8716a7cba867c6b",
-      "id": "2109045220411351517",
-      "text": "Day 6/ Reset",
-      "url": "https://x.com/thsottiaux/status/2109045220411351517",
-      "postCreatedAt": "2026-10-10T22:15:39.000Z",
-      "detectedAt": "2026-10-10T22:17:22.892Z",
-      "events": [
-        {
-          "type": "mention",
-          "status": "uncertain",
-          "evidence": "Day 6/ Reset",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "Day 6/ Reset",
-            "note": "未形成明確的重置承諾或完成確認"
           }
         }
       ],

@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T16:52:45.343Z",
+  "updatedAt": "2026-11-05T22:27:20.357Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-05T16:52:45.315Z",
-    "lastSuccessAt": "2026-11-05T16:52:45.315Z",
-    "lastRunStatus": "checked-1-posts"
+    "lastCheckedAt": "2026-11-05T22:27:20.350Z",
+    "lastSuccessAt": "2026-11-05T22:27:20.350Z",
+    "lastRunStatus": "checked-7-posts"
   },
   "latestObservedPost": {
-    "id": "2118376946652557613",
-    "text": "@ohayou792 Who comes up with these haha. Dane Starbuck. Haha",
-    "url": "https://x.com/thsottiaux/status/2118376946652557613",
-    "postCreatedAt": "2026-11-05T16:16:36.000Z"
+    "id": "2118470016127598724",
+    "text": "If I count well, that's more than 500M images per day.",
+    "url": "https://x.com/thsottiaux/status/2118470016127598724",
+    "postCreatedAt": "2026-11-05T22:26:25.000Z"
   },
   "resetHint": null,
   "latest": {

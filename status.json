@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T22:27:20.357Z",
+  "updatedAt": "2026-11-06T02:44:28.353Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-05T22:27:20.350Z",
-    "lastSuccessAt": "2026-11-05T22:27:20.350Z",
-    "lastRunStatus": "checked-7-posts"
+    "lastCheckedAt": "2026-11-06T02:44:28.347Z",
+    "lastSuccessAt": "2026-11-06T02:44:28.347Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2118470016127598724",
-    "text": "If I count well, that's more than 500M images per day.",
-    "url": "https://x.com/thsottiaux/status/2118470016127598724",
-    "postCreatedAt": "2026-11-05T22:26:25.000Z"
+    "id": "2118473288368406582",
+    "text": "Generating*",
+    "url": "https://x.com/thsottiaux/status/2118473288368406582",
+    "postCreatedAt": "2026-11-05T22:39:25.000Z"
   },
   "resetHint": null,
   "latest": {

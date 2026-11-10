@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2119611877810639072",
-  "lastCheckedAt": "2026-11-10T03:01:51.350Z",
-  "lastSuccessAt": "2026-11-10T03:01:51.350Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 660,
+  "sinceId": "2120021043876106429",
+  "lastCheckedAt": "2026-11-10T10:59:52.965Z",
+  "lastSuccessAt": "2026-11-10T10:59:52.965Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 662,
   "matches": [
     {
       "version": "968ea4e2d85d2fccdde068e8c8c332ee6bf0c9be3748cd7bfc83a6b8dbfa8074",
@@ -1231,15 +1231,17 @@
     "2119309070658318698": "d8ef0e6c6eda079386f56be8a18afac7363e384c3abf8487114b0085b83e3073",
     "2119528988033073501": "ef7eb84d4cd1349aaf337ab58efa0b215b5caddca923e33f792f541bc420b7cd",
     "2119532403593191733": "8f6d3dfd8382d776462fd8fcefcf16fbeb244ae3d2cabe5e2a25643302da87f0",
-    "2119611877810639072": "9a693cf09967be78d16422b13de22b648726dbdebc10c4bb56e9780db1efd7d7"
+    "2119611877810639072": "9a693cf09967be78d16422b13de22b648726dbdebc10c4bb56e9780db1efd7d7",
+    "2120018604691521609": "34fe16711376cb1ae9a12a1a6e9e29ca058295a86a14c7c52e77bc9e31250c8a",
+    "2120021043876106429": "9729ed332d21a6bd0687726475e22aa2bf00aa775f67e844b063d56398d5f0a7"
   },
   "eventParserVersion": 6,
   "latestObservedPost": {
-    "id": "2119611877810639072",
-    "canonicalId": "2119611877810639072",
-    "text": "@maria_rcks Congrats to Theo",
-    "createdAt": "2026-11-09T02:03:46.000Z",
-    "url": "https://x.com/thsottiaux/status/2119611877810639072",
+    "id": "2120021043876106429",
+    "canonicalId": "2120021043876106429",
+    "text": "Dots can now control many machines in addition to its own little cloud computer that we provide by default.",
+    "createdAt": "2026-11-10T05:09:39.000Z",
+    "url": "https://x.com/thsottiaux/status/2120021043876106429",
     "media": []
   }
 }

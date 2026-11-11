@@ -1,46 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T03:03:57.681Z",
+  "updatedAt": "2026-11-11T10:45:25.446Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-11T03:03:57.677Z",
-    "lastSuccessAt": "2026-11-11T03:03:57.677Z",
-    "lastRunStatus": "checked-1-posts"
+    "lastCheckedAt": "2026-11-11T10:45:25.434Z",
+    "lastSuccessAt": "2026-11-11T10:45:25.434Z",
+    "lastRunStatus": "checked-3-posts"
   },
   "latestObservedPost": {
-    "id": "2120304649807020238",
-    "text": "@embw_l0x We're assembling one of the best teams ever and I do talk to folks at Anthropic every once in a while. Couldn't be more excited for the months ahead.",
-    "url": "https://x.com/thsottiaux/status/2120304649807020238",
-    "postCreatedAt": "2026-11-10T23:56:36.000Z"
+    "id": "2120411235716063700",
+    "text": "@iso_morph Many such cases.",
+    "url": "https://x.com/thsottiaux/status/2120411235716063700",
+    "postCreatedAt": "2026-11-11T07:00:08.000Z"
   },
-  "resetHint": null,
+  "resetHint": {
+    "source": "codex-resets",
+    "kind": "watch",
+    "start": "2026-11-11T06:57:08.000Z",
+    "end": "2026-11-13T08:00:00.000Z",
+    "chancePercent": 65,
+    "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+    "url": "https://x.com/thsottiaux/status/2120410480204525936",
+    "sourceLabel": "Codex Resets",
+    "sourceUrl": "https://codex-resets.com/",
+    "validUntil": "2026-11-13T08:00:00.000Z"
+  },
   "latest": {
-    "reset": {
-      "version": "b67fd59b479a6010d7bf14dcd27b877ed837898b135d1997697b6e882227239e",
-      "id": "2109812360596865224",
-      "text": "Global reset landing by EOD PST time. Enjoy",
-      "url": "https://x.com/thsottiaux/status/2109812360596865224",
-      "postCreatedAt": "2026-10-13T01:03:59.000Z",
-      "detectedAt": "2026-10-13T01:22:58.345Z",
-      "events": [
-        {
-          "type": "reset",
-          "status": "announced",
-          "evidence": "Global reset landing by EOD PST time",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "Global reset landing by EOD PST time",
-            "note": "原文沒有可確定的時間"
-          }
-        }
-      ],
-      "deliveryChannels": [],
-      "origin": "live"
-    },
+    "reset": null,
     "bankCredit": {
       "version": "history:2096035437299237298",
       "id": "2096035437299237298",
@@ -68,6 +56,54 @@
     "bankExpiry": null
   },
   "recent": [
+    {
+      "version": "c579a4bdbfd63ee59b12e3cbf573c888c235cf951566a35314f55135a2a37573",
+      "id": "2120410480204525936",
+      "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+      "url": "https://x.com/thsottiaux/status/2120410480204525936",
+      "postCreatedAt": "2026-11-11T06:57:08.000Z",
+      "detectedAt": "2026-11-11T10:45:25.434Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Perhaps also a good time for a banked reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Perhaps also a good time for a banked reset",
+            "note": "原文沒有可確定的時間"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "a6fabd09590cac47be5bd963153253f6474ae46827adab01a0182a0b02185c1d",
+      "id": "2120410006273380750",
+      "text": "It’s been a while without resets. Maybe I should come back out of the basement",
+      "url": "https://x.com/thsottiaux/status/2120410006273380750",
+      "postCreatedAt": "2026-11-11T06:55:15.000Z",
+      "detectedAt": "2026-11-11T10:45:25.412Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "It’s been a while without resets",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "It’s been a while without resets",
+            "note": "未形成明確的重置承諾或完成確認"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
     {
       "version": "968ea4e2d85d2fccdde068e8c8c332ee6bf0c9be3748cd7bfc83a6b8dbfa8074",
       "id": "2119308687676432672",
@@ -506,54 +542,6 @@
             "end": null,
             "evidence": "What would you like with your side of reset? It's done",
             "note": "討論、請求、弱判斷或否定，不代表已確認的重置"
-          }
-        }
-      ],
-      "deliveryChannels": [],
-      "origin": "live"
-    },
-    {
-      "version": "b67fd59b479a6010d7bf14dcd27b877ed837898b135d1997697b6e882227239e",
-      "id": "2109812360596865224",
-      "text": "Global reset landing by EOD PST time. Enjoy",
-      "url": "https://x.com/thsottiaux/status/2109812360596865224",
-      "postCreatedAt": "2026-10-13T01:03:59.000Z",
-      "detectedAt": "2026-10-13T01:22:58.345Z",
-      "events": [
-        {
-          "type": "reset",
-          "status": "announced",
-          "evidence": "Global reset landing by EOD PST time",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "Global reset landing by EOD PST time",
-            "note": "原文沒有可確定的時間"
-          }
-        }
-      ],
-      "deliveryChannels": [],
-      "origin": "live"
-    },
-    {
-      "version": "ca823a56be82e9b5268af58b19074f5b9beef0c85b5ef480343d9f8c60ef16c8",
-      "id": "2109812216212099456",
-      "text": "Day 8/ Reset",
-      "url": "https://x.com/thsottiaux/status/2109812216212099456",
-      "postCreatedAt": "2026-10-13T01:03:25.000Z",
-      "detectedAt": "2026-10-13T01:22:58.319Z",
-      "events": [
-        {
-          "type": "mention",
-          "status": "uncertain",
-          "evidence": "Day 8/ Reset",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "Day 8/ Reset",
-            "note": "未形成明確的重置承諾或完成確認"
           }
         }
       ],

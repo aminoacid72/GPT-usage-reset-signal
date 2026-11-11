@@ -6,13 +6,12 @@
   "sinceId": "2120411235716063700",
   "lastCheckedAt": "2026-11-11T10:45:25.434Z",
   "lastSuccessAt": "2026-11-11T10:45:25.434Z",
-  "lastRunStatus": "checked-3-posts",
+  "lastRunStatus": "failed-1",
   "postsScanned": 669,
   "matches": [
     {
       "version": "c579a4bdbfd63ee59b12e3cbf573c888c235cf951566a35314f55135a2a37573",
       "id": "2120410480204525936",
-      "canonicalId": "2120410480204525936",
       "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
       "createdAt": "2026-11-11T06:57:08.000Z",
       "url": "https://x.com/thsottiaux/status/2120410480204525936",
@@ -32,15 +31,14 @@
           }
         }
       ],
+      "notifiedAt": "2026-11-11T10:45:25.440Z",
       "channels": [
         "github-actions"
-      ],
-      "notifiedAt": "2026-11-11T10:45:25.440Z"
+      ]
     },
     {
       "version": "a6fabd09590cac47be5bd963153253f6474ae46827adab01a0182a0b02185c1d",
       "id": "2120410006273380750",
-      "canonicalId": "2120410006273380750",
       "text": "It’s been a while without resets. Maybe I should come back out of the basement",
       "createdAt": "2026-11-11T06:55:15.000Z",
       "url": "https://x.com/thsottiaux/status/2120410006273380750",
@@ -60,10 +58,10 @@
           }
         }
       ],
+      "notifiedAt": "2026-11-11T10:45:25.437Z",
       "channels": [
         "github-actions"
-      ],
-      "notifiedAt": "2026-11-11T10:45:25.437Z"
+      ]
     },
     {
       "version": "968ea4e2d85d2fccdde068e8c8c332ee6bf0c9be3748cd7bfc83a6b8dbfa8074",

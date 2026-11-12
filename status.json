@@ -1,32 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T16:17:54.774Z",
+  "updatedAt": "2026-11-12T22:18:02.192Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-12T16:17:54.768Z",
-    "lastSuccessAt": "2026-11-12T16:17:54.768Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-11-12T22:18:02.178Z",
+    "lastSuccessAt": "2026-11-12T22:18:02.178Z",
+    "lastRunStatus": "checked-1-posts"
   },
   "latestObservedPost": {
-    "id": "2120621485442339277",
-    "text": "@charlierguo Hi 👋 Buzz Buzz",
-    "url": "https://x.com/thsottiaux/status/2120621485442339277",
-    "postCreatedAt": "2026-11-11T20:55:36.000Z"
+    "id": "2120999993079451919",
+    "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
+    "url": "https://x.com/thsottiaux/status/2120999993079451919",
+    "postCreatedAt": "2026-11-12T21:59:39.000Z"
   },
-  "resetHint": {
-    "source": "codex-resets",
-    "kind": "watch",
-    "start": "2026-11-11T06:57:08.000Z",
-    "end": "2026-11-13T08:00:00.000Z",
-    "chancePercent": 65,
-    "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
-    "url": "https://x.com/thsottiaux/status/2120410480204525936",
-    "sourceLabel": "Codex Resets",
-    "sourceUrl": "https://codex-resets.com/",
-    "validUntil": "2026-11-13T08:00:00.000Z"
-  },
+  "resetHint": null,
   "latest": {
     "reset": null,
     "bankCredit": {
@@ -56,6 +45,30 @@
     "bankExpiry": null
   },
   "recent": [
+    {
+      "version": "2732b43e8f7002afa5ee3d3720a66a3370014efcbf52871d64eb02dd4dffeafb",
+      "id": "2120999993079451919",
+      "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
+      "url": "https://x.com/thsottiaux/status/2120999993079451919",
+      "postCreatedAt": "2026-11-12T21:59:39.000Z",
+      "detectedAt": "2026-11-12T22:18:02.178Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
+            "note": "討論、請求、弱判斷或否定，不代表已確認的重置"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
     {
       "version": "c579a4bdbfd63ee59b12e3cbf573c888c235cf951566a35314f55135a2a37573",
       "id": "2120410480204525936",
@@ -518,30 +531,6 @@
             "end": null,
             "evidence": "Day 10/ Reset",
             "note": "未形成明確的重置承諾或完成確認"
-          }
-        }
-      ],
-      "deliveryChannels": [],
-      "origin": "live"
-    },
-    {
-      "version": "0c2365f179f9ebd9526f6652d6d5b41cd355a42feb13a8dbdee1544d6ad1da78",
-      "id": "2109873287853707513",
-      "text": "What would you like with your side of reset? It's done.",
-      "url": "https://x.com/thsottiaux/status/2109873287853707513",
-      "postCreatedAt": "2026-10-13T05:06:06.000Z",
-      "detectedAt": "2026-10-13T07:55:25.774Z",
-      "events": [
-        {
-          "type": "mention",
-          "status": "uncertain",
-          "evidence": "What would you like with your side of reset? It's done",
-          "time": {
-            "kind": "unknown",
-            "start": null,
-            "end": null,
-            "evidence": "What would you like with your side of reset? It's done",
-            "note": "討論、請求、弱判斷或否定，不代表已確認的重置"
           }
         }
       ],

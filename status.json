@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T02:50:21.636Z",
+  "updatedAt": "2026-11-18T10:47:29.501Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-18T02:50:21.630Z",
-    "lastSuccessAt": "2026-11-18T02:50:21.630Z",
-    "lastRunStatus": "checked-7-posts"
+    "lastCheckedAt": "2026-11-18T10:47:29.493Z",
+    "lastSuccessAt": "2026-11-18T10:47:29.493Z",
+    "lastRunStatus": "checked-11-posts"
   },
   "latestObservedPost": {
-    "id": "2122880368600621508",
-    "text": "@arcprize @OpenAI !!",
-    "url": "https://x.com/thsottiaux/status/2122880368600621508",
-    "postCreatedAt": "2026-11-18T02:31:35.000Z"
+    "id": "2122954129094111394",
+    "text": "@mattshumer_ I do think you all coordinated on a slack channel 👀",
+    "url": "https://x.com/thsottiaux/status/2122954129094111394",
+    "postCreatedAt": "2026-11-18T07:24:41.000Z"
   },
   "resetHint": null,
   "latest": {

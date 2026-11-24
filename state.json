@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2124322968499282388",
-  "lastCheckedAt": "2026-11-23T13:10:32.257Z",
-  "lastSuccessAt": "2026-11-23T13:10:32.257Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 728,
+  "sinceId": "2125027477877887231",
+  "lastCheckedAt": "2026-11-24T00:49:47.403Z",
+  "lastSuccessAt": "2026-11-24T00:49:47.403Z",
+  "lastRunStatus": "checked-6-posts",
+  "postsScanned": 734,
   "matches": [
     {
       "version": "2732b43e8f7002afa5ee3d3720a66a3370014efcbf52871d64eb02dd4dffeafb",
@@ -1299,15 +1299,21 @@
     "2123997735326232775": "83154c9c2dccaa2c5f9971a5786343fb0e57719d1453a26361aab2cbb7136cf4",
     "2123998117561532424": "c6e8ad920deaf169c09ced90de86cb63dc106e3c5fb80c607d9a71717af7a1fb",
     "2124277855131664869": "a237d2c0d045712b6cdf9238c563a98febe02c3aadb7e5e7dbb668736bde8a9f",
-    "2124322968499282388": "213256bedba121f2bc4fdf705714c7c199577492cd16f3361bb8e8f86a781db5"
+    "2124322968499282388": "213256bedba121f2bc4fdf705714c7c199577492cd16f3361bb8e8f86a781db5",
+    "2124922313019953319": "32bb47b98de764cbbd3c2299b0a020868decb6f38830333503c0054413c9e9fd",
+    "2124922412219486443": "60cf1e6fccd6f0b743135a0a1a61cb24df4b6c733a1b6afee7a1c73e411e748d",
+    "2124923055072043052": "7c08671ab1f7155738cb17eb7c7ee0bc6c71f466f3ea4ea0dfd88e1f9336d2e7",
+    "2124923142762361133": "7a73e2b60bed38773646b56d943761d68071b0dc5a32b9109a598d7ec01e0c0b",
+    "2124998553856844186": "32a130c0595644f77981f44d5d1e69137e544076870d3fa68c08a30cfd64acef",
+    "2125027477877887231": "97d58b05cb3fa56e00411aa0ecfc3721d1f503d1e28d0181a1ce74fcb7877440"
   },
   "eventParserVersion": 6,
   "latestObservedPost": {
-    "id": "2124322968499282388",
-    "canonicalId": "2124322968499282388",
-    "text": "Team is already preparing another big update, but how are things since yesterday’s update to the ChatGPT/Codex desktop app? What still requires attention and is not quite there?",
-    "createdAt": "2026-11-22T02:03:58.000Z",
-    "url": "https://x.com/thsottiaux/status/2124322968499282388",
+    "id": "2125027477877887231",
+    "canonicalId": "2125027477877887231",
+    "text": "Worth listening to if you're curious what goes on in the minds of the people at OpenAI who are obsessively trying to patch all the flaws in OSS software and infrastructure we all rely on",
+    "createdAt": "2026-11-24T00:43:26.000Z",
+    "url": "https://x.com/thsottiaux/status/2125027477877887231",
     "media": []
   }
 }
